@@ -1,2 +1,5 @@
-*/.bundle
-*/vendor/bundle
+.bundle/
+vendor/
+*.pid
+.bash_history
+.viminfo
