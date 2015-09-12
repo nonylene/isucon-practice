@@ -3,6 +3,7 @@ require 'digest/sha2'
 require 'mysql2-cs-bind'
 require 'rack-flash'
 require 'json'
+require 'pry-byebug'
 
 module Isucon4
   class App < Sinatra::Base
@@ -43,19 +44,19 @@ module Isucon4
       def user_locked?(user)
         return nil unless user
         log = db.xquery("SELECT COUNT(1) AS failures FROM login_log WHERE user_id = ? AND id > IFNULL((select id from login_log where user_id = ? AND succeeded = 1 ORDER BY id DESC LIMIT 1), 0);", user['id'], user['id']).first
-
+	#binding.pry
         config[:user_lock_threshold] <= log['failures']
       end
 
       def ip_banned?
         log = db.xquery("SELECT COUNT(1) AS failures FROM login_log WHERE ip = ? AND id > IFNULL((select id from login_log where ip = ? AND succeeded = 1 ORDER BY id DESC LIMIT 1), 0);", request.ip, request.ip).first
-
+	#binding.pry
         config[:ip_ban_threshold] <= log['failures']
       end
 
       def attempt_login(login, password)
         user = db.xquery('SELECT * FROM users WHERE login = ?', login).first
-
+	#binding.pry
         if ip_banned?
           login_log(false, login, user ? user['id'] : nil)
           return [nil, :banned]

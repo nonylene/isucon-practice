@@ -4,3 +4,5 @@ vendor/
 .bash_history
 .viminfo
 .lesshst
+.mysql_history
+.pry_history
