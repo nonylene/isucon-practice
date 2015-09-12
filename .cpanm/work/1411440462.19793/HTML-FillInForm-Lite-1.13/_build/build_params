@@ -1,0 +1,136 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installman1dir' => '',
+         'installsiteman1dir' => '',
+         'installsiteman3dir' => '',
+         'installman3dir' => ''
+       },
+       {
+         'debugger' => undef,
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'extra_compiler_flags' => [],
+         'build_class' => 'MyBuilder',
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'meta_merge' => {},
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440462.19793/HTML-FillInForm-Lite-1.13',
+         'pollute' => undef,
+         'module_name' => 'HTML::FillInForm::Lite',
+         'pureperl_only' => 0,
+         'create_readme' => undef,
+         'dist_author' => undef,
+         'destdir' => undef,
+         'extra_linker_flags' => [],
+         'script_files' => [],
+         'original_prefix' => {},
+         'debug' => undef,
+         'extra_manify_args' => undef,
+         'bundle_inc_preload' => [],
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'get_options' => {},
+         'base_dir' => '/home/isucon/.cpanm/work/1411440462.19793/HTML-FillInForm-Lite-1.13',
+         'install_sets' => {},
+         'scripts' => undef,
+         'mymetafile2' => 'MYMETA.json',
+         'share_dir' => undef,
+         'xs_files' => undef,
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'pm_files' => undef,
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1411440462.19793/HTML-FillInForm-Lite-1.13/_build/lib',
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ],
+         'PL_files' => undef,
+         'install_path' => {},
+         'allow_mb_mismatch' => 0,
+         'verbose' => undef,
+         'quiet' => undef,
+         'installdirs' => 'site',
+         'autosplit' => undef,
+         'dynamic_config' => 0,
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'create_packlist' => 1,
+         'meta_add' => {},
+         'dist_suffix' => undef,
+         'test_files' => 't/',
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'build_script' => 'Build',
+         'license' => 'perl',
+         'config' => undef,
+         'test_requires' => {},
+         'requires' => {},
+         'build_bat' => 0,
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'conflicts' => {},
+         'include_dirs' => [],
+         'has_config_data' => undef,
+         'magic_number' => undef,
+         'recommends' => {},
+         'auto_configure_requires' => 1,
+         'prefix_relpaths' => {},
+         'create_makefile_pl' => undef,
+         'mymetafile' => 'MYMETA.yml',
+         'config_dir' => '_build',
+         'cpan_client' => 'cpan',
+         'prefix' => undef,
+         'needs_compiler' => '',
+         'use_rcfile' => 1,
+         'create_license' => undef,
+         'recursive_test_files' => 1,
+         'build_requires' => {},
+         'html_css' => '',
+         'pod_files' => undef,
+         'bundle_inc' => [],
+         'dist_version' => '1.13',
+         'c_source' => undef,
+         'dist_name' => 'HTML-FillInForm-Lite',
+         'blib' => 'blib',
+         'allow_pureperl' => 0,
+         'recurse_into' => [],
+         'no_index' => {
+                         'directory' => [
+                                          'inc'
+                                        ]
+                       },
+         'sign' => undef,
+         'metafile' => 'META.yml',
+         'use_tap_harness' => 0,
+         'install_base_relpaths' => {},
+         'dist_abstract' => undef,
+         'tap_harness_args' => {},
+         'release_status' => 'stable',
+         'program_name' => undef,
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'dist_version_from' => 'lib/HTML/FillInForm/Lite.pm',
+         'metafile2' => 'META.json',
+         'name' => 'HTML-FillInForm-Lite',
+         'mb_version' => '0.421'
+       }
+     ];
+$x; }

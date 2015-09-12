@@ -1,0 +1,1 @@
+{"version":"0.32","pathname":"K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.32.tar.gz","dist":"Apache-LogFormat-Compiler-0.32","provides":{"Apache::LogFormat::Compiler":{"version":"0.32","file":"lib/Apache/LogFormat/Compiler.pm"}},"target":"Apache::LogFormat::Compiler","name":"Apache::LogFormat::Compiler"}

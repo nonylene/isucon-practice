@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installsiteman3dir' => '',
+         'installman1dir' => '',
+         'installman3dir' => '',
+         'installsiteman1dir' => ''
+       },
+       {
+         'original_prefix' => {},
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'script_files' => [],
+         'destdir' => undef,
+         'dist_name' => 'WWW-Form-UrlEncoded',
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1411440462.19793/WWW-Form-UrlEncoded-0.19/_build/lib',
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ],
+         'blib' => 'blib',
+         'dynamic_config' => 0,
+         'license' => 'perl',
+         'c_source' => [],
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'release_status' => 'stable',
+         'config_dir' => '_build',
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'html_css' => '',
+         'xs_files' => undef,
+         'scripts' => undef,
+         'install_sets' => {},
+         'verbose' => undef,
+         'dist_author' => undef,
+         'dist_version' => '0.19',
+         'recurse_into' => [],
+         'test_requires' => {},
+         'bundle_inc_preload' => [],
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'metafile2' => 'META.json',
+         'magic_number' => undef,
+         'base_dir' => '/home/isucon/.cpanm/work/1411440462.19793/WWW-Form-UrlEncoded-0.19',
+         'has_config_data' => undef,
+         'installdirs' => 'site',
+         'cpan_client' => 'cpan',
+         'create_readme' => undef,
+         'create_makefile_pl' => undef,
+         'allow_mb_mismatch' => 0,
+         'autosplit' => undef,
+         'test_files' => 't/',
+         'PL_files' => {},
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'build_bat' => 0,
+         'dist_suffix' => undef,
+         'quiet' => undef,
+         'create_packlist' => 1,
+         'module_name' => 'WWW::Form::UrlEncoded',
+         'recursive_test_files' => 1,
+         'build_requires' => {
+                               'ExtUtils::CBuilder' => 0
+                             },
+         'sign' => undef,
+         'debugger' => undef,
+         'include_dirs' => [],
+         'tap_harness_args' => {},
+         'get_options' => {},
+         'pureperl_only' => 0,
+         'extra_compiler_flags' => [],
+         'mb_version' => '0.421',
+         'pm_files' => undef,
+         'install_path' => {},
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440462.19793/WWW-Form-UrlEncoded-0.19',
+         'dist_abstract' => undef,
+         'conflicts' => {},
+         'recommends' => {},
+         'requires' => {},
+         'prefix' => undef,
+         'extra_manify_args' => undef,
+         'build_class' => 'MyBuilder',
+         'meta_merge' => {},
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'meta_add' => {},
+         'use_rcfile' => 1,
+         'pollute' => undef,
+         'pod_files' => undef,
+         'metafile' => 'META.yml',
+         'extra_linker_flags' => [],
+         'use_tap_harness' => 0,
+         'build_script' => 'Build',
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'auto_configure_requires' => 1,
+         'bundle_inc' => [],
+         'allow_pureperl' => 0,
+         'debug' => undef,
+         'share_dir' => undef,
+         'mymetafile' => 'MYMETA.yml',
+         'program_name' => undef,
+         'needs_compiler' => 1,
+         '_have_c_compiler' => 1,
+         'config' => undef,
+         'install_base_relpaths' => {},
+         'mymetafile2' => 'MYMETA.json',
+         'create_license' => undef,
+         'dist_version_from' => 'lib/WWW/Form/UrlEncoded.pm',
+         'name' => 'WWW-Form-UrlEncoded',
+         'prefix_relpaths' => {}
+       }
+     ];
+$x; }

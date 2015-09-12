@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installsiteman1dir' => '',
+         'installman1dir' => '',
+         'installsiteman3dir' => '',
+         'installman3dir' => ''
+       },
+       {
+         'auto_configure_requires' => 1,
+         '_have_c_compiler' => 1,
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'sign' => undef,
+         'create_license' => undef,
+         'install_base_relpaths' => {},
+         'use_tap_harness' => 0,
+         'test_requires' => {},
+         'license' => 'perl',
+         'dist_abstract' => undef,
+         'conflicts' => {},
+         'pollute' => undef,
+         'autosplit' => undef,
+         'pm_files' => undef,
+         'xs_files' => undef,
+         'dist_version_from' => 'lib/Apache/LogFormat/Compiler.pm',
+         'build_class' => 'MyBuilder',
+         'verbose' => undef,
+         'program_name' => undef,
+         'name' => 'Apache-LogFormat-Compiler',
+         'dynamic_config' => 0,
+         'mymetafile' => 'MYMETA.yml',
+         'tap_harness_args' => {},
+         'debugger' => undef,
+         'script_files' => [],
+         'debug' => undef,
+         'allow_pureperl' => 0,
+         'module_name' => 'Apache::LogFormat::Compiler',
+         'extra_compiler_flags' => [],
+         'scripts' => undef,
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'recursive_test_files' => 1,
+         'base_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Apache-LogFormat-Compiler-0.32',
+         'meta_merge' => {},
+         'prefix' => undef,
+         'install_sets' => {},
+         'create_makefile_pl' => undef,
+         'get_options' => {},
+         'pod_files' => undef,
+         'dist_name' => 'Apache-LogFormat-Compiler',
+         'build_bat' => 0,
+         'release_status' => 'stable',
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'metafile2' => 'META.json',
+         'pureperl_only' => 0,
+         'use_rcfile' => 1,
+         'recurse_into' => [],
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'bundle_inc' => [],
+         'c_source' => [],
+         'mymetafile2' => 'MYMETA.json',
+         'test_files' => 't/',
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'destdir' => undef,
+         'extra_manify_args' => undef,
+         'quiet' => undef,
+         'dist_version' => '0.32',
+         'needs_compiler' => 1,
+         'dist_suffix' => undef,
+         'PL_files' => {},
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Apache-LogFormat-Compiler-0.32',
+         'original_prefix' => {},
+         'config' => undef,
+         'has_config_data' => undef,
+         'allow_mb_mismatch' => 0,
+         'create_readme' => undef,
+         'share_dir' => undef,
+         'meta_add' => {},
+         'cpan_client' => 'cpan',
+         'magic_number' => undef,
+         'build_script' => 'Build',
+         'build_requires' => {
+                               'ExtUtils::CBuilder' => 0
+                             },
+         'create_packlist' => 1,
+         'blib' => 'blib',
+         'metafile' => 'META.yml',
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'prefix_relpaths' => {},
+         'dist_author' => undef,
+         'installdirs' => 'site',
+         'requires' => {},
+         'mb_version' => '0.421',
+         'config_dir' => '_build',
+         'html_css' => '',
+         'recommends' => {},
+         'extra_linker_flags' => [],
+         'include_dirs' => [],
+         'install_path' => {},
+         'bundle_inc_preload' => [],
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1411440462.19793/Apache-LogFormat-Compiler-0.32/_build/lib',
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ]
+       }
+     ];
+$x; }

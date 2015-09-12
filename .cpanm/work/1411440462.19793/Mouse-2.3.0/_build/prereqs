@@ -1,0 +1,14 @@
+do{ my $x = {
+       'test_requires' => {},
+       'build_requires' => {
+                             'ExtUtils::CBuilder' => 0
+                           },
+       'requires' => {},
+       'conflicts' => {
+                        'Any::Moose' => '< 0.10',
+                        'MouseX::NativeTraits' => '< 1.00',
+                        'MouseX::AttributeHelpers' => '< 0.06'
+                      },
+       'recommends' => {}
+     };
+$x; }

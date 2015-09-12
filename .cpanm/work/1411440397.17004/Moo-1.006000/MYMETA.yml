@@ -1,0 +1,41 @@
+---
+abstract: 'Minimalist Object Orientation (with Moose compatibility)'
+author:
+  - 'mst - Matt S. Trout (cpan:MSTROUT) <mst@shadowcat.co.uk>'
+build_requires:
+  Test::Fatal: '0.003'
+  Test::More: '0.94'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141520, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Moo
+no_index:
+  directory:
+    - t
+    - xt
+recommends:
+  Class::XSAccessor: '1.18'
+  Sub::Name: '0'
+requires:
+  Class::Method::Modifiers: '1.1'
+  Devel::GlobalDestruction: '0.11'
+  Import::Into: '1.002'
+  Module::Runtime: '0.014'
+  Role::Tiny: '1.003003'
+  Scalar::Util: '0'
+  perl: '5.006'
+  strictures: '1.004003'
+resources:
+  IRC: irc://irc.perl.org/#moose
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Moo
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/moose/Moo.git
+version: '1.006000'
+x_authority: cpan:MSTROUT
+x_breaks:
+  HTML::Restrict: '== 2.1.5'

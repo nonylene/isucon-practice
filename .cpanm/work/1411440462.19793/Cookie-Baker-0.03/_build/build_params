@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installsiteman3dir' => '',
+         'installman3dir' => '',
+         'installman1dir' => '',
+         'installsiteman1dir' => ''
+       },
+       {
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'install_base_relpaths' => {},
+         'recommends' => {},
+         'html_css' => '',
+         'script_files' => [],
+         'needs_compiler' => 1,
+         'install_sets' => {},
+         'program_name' => undef,
+         'pollute' => undef,
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'dist_version' => '0.03',
+         'test_files' => 't/',
+         'conflicts' => {},
+         'bundle_inc_preload' => [],
+         'allow_mb_mismatch' => 0,
+         'create_makefile_pl' => undef,
+         'meta_merge' => {},
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'cpan_client' => 'cpan',
+         'base_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Cookie-Baker-0.03',
+         'bundle_inc' => [],
+         'prefix' => undef,
+         'quiet' => undef,
+         'extra_manify_args' => undef,
+         'dist_suffix' => undef,
+         'create_readme' => undef,
+         'installdirs' => 'site',
+         'magic_number' => undef,
+         'build_class' => 'MyBuilder',
+         'sign' => undef,
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'dist_name' => 'Cookie-Baker',
+         'original_prefix' => {},
+         'metafile' => 'META.yml',
+         'release_status' => 'stable',
+         'scripts' => undef,
+         'auto_configure_requires' => 1,
+         'include_dirs' => [],
+         'pod_files' => undef,
+         'test_requires' => {},
+         'install_path' => {},
+         'module_name' => 'Cookie::Baker',
+         'dynamic_config' => 0,
+         'xs_files' => undef,
+         'name' => 'Cookie-Baker',
+         'autosplit' => undef,
+         'use_rcfile' => 1,
+         'config_dir' => '_build',
+         'requires' => {},
+         'has_config_data' => undef,
+         'dist_author' => undef,
+         'debug' => undef,
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Cookie-Baker-0.03',
+         'mb_version' => '0.421',
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1411440462.19793/Cookie-Baker-0.03/_build/lib',
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ],
+         'c_source' => [],
+         'blib' => 'blib',
+         'create_packlist' => 1,
+         '_have_c_compiler' => 1,
+         'destdir' => undef,
+         'build_script' => 'Build',
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'dist_abstract' => undef,
+         'dist_version_from' => 'lib/Cookie/Baker.pm',
+         'use_tap_harness' => 0,
+         'config' => undef,
+         'mymetafile' => 'MYMETA.yml',
+         'recurse_into' => [],
+         'tap_harness_args' => {},
+         'mymetafile2' => 'MYMETA.json',
+         'PL_files' => {},
+         'license' => 'perl',
+         'get_options' => {},
+         'pureperl_only' => 0,
+         'build_requires' => {
+                               'ExtUtils::CBuilder' => 0
+                             },
+         'recursive_test_files' => 1,
+         'pm_files' => undef,
+         'create_license' => undef,
+         'allow_pureperl' => 0,
+         'prefix_relpaths' => {},
+         'debugger' => undef,
+         'share_dir' => undef,
+         'extra_linker_flags' => [],
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'metafile2' => 'META.json',
+         'extra_compiler_flags' => [],
+         'build_bat' => 0,
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'verbose' => undef,
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'meta_add' => {}
+       }
+     ];
+$x; }

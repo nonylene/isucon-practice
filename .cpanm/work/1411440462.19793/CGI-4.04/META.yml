@@ -1,0 +1,30 @@
+---
+abstract: unknown
+author:
+  - unknown
+build_requires: {}
+configure_requires: {}
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CGI
+no_index:
+  directory:
+    - t
+    - inc
+    - t
+requires:
+  File::Spec: 0.82
+  Test::Deep: 0.11
+  Test::More: 0.98
+  if: 0
+  perl: 5.008001
+resources:
+  bugtracker: https://github.com/leejo/CGI.pm/issues
+  homepage: https://metacpan.org/module/CGI
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/leejo/CGI.pm
+version: 4.04

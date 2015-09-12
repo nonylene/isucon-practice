@@ -1,0 +1,206 @@
+[26-Sep-2014 13:07:35] ERROR: unable to bind listening socket for address '0.0.0.0:8080': Address already in use (98)
+[26-Sep-2014 13:07:35] ERROR: FPM initialization failed
+[26-Sep-2014 13:07:36] ERROR: unable to bind listening socket for address '0.0.0.0:8080': Address already in use (98)
+[26-Sep-2014 13:07:36] ERROR: FPM initialization failed
+[26-Sep-2014 13:07:38] ERROR: unable to bind listening socket for address '0.0.0.0:8080': Address already in use (98)
+[26-Sep-2014 13:07:38] ERROR: FPM initialization failed
+[26-Sep-2014 13:07:41] ERROR: unable to bind listening socket for address '0.0.0.0:8080': Address already in use (98)
+[26-Sep-2014 13:07:41] ERROR: FPM initialization failed
+[26-Sep-2014 13:07:58] NOTICE: fpm is running, pid 7538
+[26-Sep-2014 13:07:58] NOTICE: ready to handle connections
+[26-Sep-2014 13:08:30] WARNING: [pool www] server reached pm.max_children setting (10), consider raising it
+[26-Sep-2014 13:12:11] NOTICE: Terminating ...
+[26-Sep-2014 13:12:11] NOTICE: exiting, bye-bye!
+[27-Sep-2014 13:26:13] NOTICE: fpm is running, pid 26692
+[27-Sep-2014 13:26:13] NOTICE: ready to handle connections
+[27-Sep-2014 13:30:20] WARNING: [pool www] server reached pm.max_children setting (10), consider raising it
+[27-Sep-2014 13:33:14] NOTICE: [pool www] child 26694 exited with code 0 after 421.398585 seconds from start
+[27-Sep-2014 13:33:14] NOTICE: [pool www] child 27257 started
+[27-Sep-2014 13:33:16] NOTICE: [pool www] child 26702 exited with code 0 after 422.767513 seconds from start
+[27-Sep-2014 13:33:16] NOTICE: [pool www] child 27259 started
+[27-Sep-2014 13:33:21] NOTICE: [pool www] child 26693 exited with code 0 after 428.368615 seconds from start
+[27-Sep-2014 13:33:21] NOTICE: [pool www] child 27261 started
+[27-Sep-2014 13:33:21] NOTICE: [pool www] child 26696 exited with code 0 after 428.396403 seconds from start
+[27-Sep-2014 13:33:21] NOTICE: [pool www] child 27262 started
+[27-Sep-2014 13:33:21] NOTICE: [pool www] child 26698 exited with code 0 after 428.502389 seconds from start
+[27-Sep-2014 13:33:21] NOTICE: [pool www] child 27265 started
+[27-Sep-2014 13:33:22] NOTICE: [pool www] child 26699 exited with code 0 after 429.085327 seconds from start
+[27-Sep-2014 13:33:22] NOTICE: [pool www] child 27267 started
+[27-Sep-2014 13:33:23] NOTICE: [pool www] child 26701 exited with code 0 after 429.883471 seconds from start
+[27-Sep-2014 13:33:23] NOTICE: [pool www] child 27269 started
+[27-Sep-2014 13:33:23] NOTICE: [pool www] child 26695 exited with code 0 after 430.671796 seconds from start
+[27-Sep-2014 13:33:23] NOTICE: [pool www] child 27271 started
+[27-Sep-2014 13:33:30] NOTICE: [pool www] child 26697 exited with code 0 after 437.255180 seconds from start
+[27-Sep-2014 13:33:30] NOTICE: [pool www] child 27273 started
+[27-Sep-2014 13:33:36] NOTICE: [pool www] child 26700 exited with code 0 after 442.809804 seconds from start
+[27-Sep-2014 13:33:36] NOTICE: [pool www] child 27275 started
+[27-Sep-2014 13:34:21] NOTICE: [pool www] child 27259 exited with code 0 after 65.829358 seconds from start
+[27-Sep-2014 13:34:21] NOTICE: [pool www] child 27277 started
+[27-Sep-2014 13:34:24] NOTICE: [pool www] child 27257 exited with code 0 after 70.109135 seconds from start
+[27-Sep-2014 13:34:24] NOTICE: [pool www] child 27279 started
+[27-Sep-2014 13:34:33] NOTICE: [pool www] child 27269 exited with code 0 after 70.689715 seconds from start
+[27-Sep-2014 13:34:33] NOTICE: [pool www] child 27281 started
+[27-Sep-2014 13:34:34] NOTICE: [pool www] child 27265 exited with code 0 after 72.856697 seconds from start
+[27-Sep-2014 13:34:34] NOTICE: [pool www] child 27283 started
+[27-Sep-2014 13:34:35] NOTICE: [pool www] child 27261 exited with code 0 after 74.291987 seconds from start
+[27-Sep-2014 13:34:35] NOTICE: [pool www] child 27285 started
+[27-Sep-2014 13:34:45] NOTICE: [pool www] child 27271 exited with code 0 after 81.137309 seconds from start
+[27-Sep-2014 13:34:45] NOTICE: [pool www] child 27287 started
+[27-Sep-2014 13:34:47] NOTICE: [pool www] child 27262 exited with code 0 after 85.425823 seconds from start
+[27-Sep-2014 13:34:47] NOTICE: [pool www] child 27289 started
+[27-Sep-2014 13:34:55] NOTICE: [pool www] child 27273 exited with code 0 after 84.706437 seconds from start
+[27-Sep-2014 13:34:55] NOTICE: [pool www] child 27291 started
+[27-Sep-2014 13:34:55] NOTICE: [pool www] child 27267 exited with code 0 after 93.092573 seconds from start
+[27-Sep-2014 13:34:55] NOTICE: [pool www] child 27293 started
+[27-Sep-2014 13:34:57] NOTICE: [pool www] child 27275 exited with code 0 after 81.052722 seconds from start
+[27-Sep-2014 13:34:57] NOTICE: [pool www] child 27295 started
+[27-Sep-2014 13:38:24] NOTICE: [pool www] child 27285 exited with code 0 after 228.699899 seconds from start
+[27-Sep-2014 13:38:24] NOTICE: [pool www] child 27402 started
+[27-Sep-2014 13:38:31] NOTICE: [pool www] child 27277 exited with code 0 after 249.475802 seconds from start
+[27-Sep-2014 13:38:31] NOTICE: [pool www] child 27404 started
+[27-Sep-2014 13:38:36] NOTICE: [pool www] child 27287 exited with code 0 after 231.357256 seconds from start
+[27-Sep-2014 13:38:36] NOTICE: [pool www] child 27406 started
+[27-Sep-2014 13:38:37] NOTICE: [pool www] child 27281 exited with code 0 after 243.285138 seconds from start
+[27-Sep-2014 13:38:37] NOTICE: [pool www] child 27408 started
+[27-Sep-2014 13:38:37] NOTICE: [pool www] child 27283 exited with code 0 after 242.645161 seconds from start
+[27-Sep-2014 13:38:37] NOTICE: [pool www] child 27410 started
+[27-Sep-2014 13:38:47] NOTICE: [pool www] child 27279 exited with code 0 after 262.574799 seconds from start
+[27-Sep-2014 13:38:47] NOTICE: [pool www] child 27412 started
+[27-Sep-2014 13:38:53] NOTICE: [pool www] child 27293 exited with code 0 after 237.883685 seconds from start
+[27-Sep-2014 13:38:53] NOTICE: [pool www] child 27414 started
+[27-Sep-2014 13:38:53] NOTICE: [pool www] child 27291 exited with code 0 after 238.329254 seconds from start
+[27-Sep-2014 13:38:53] NOTICE: [pool www] child 27416 started
+[27-Sep-2014 13:38:56] NOTICE: [pool www] child 27289 exited with code 0 after 249.824481 seconds from start
+[27-Sep-2014 13:38:56] NOTICE: [pool www] child 27418 started
+[27-Sep-2014 13:38:58] NOTICE: [pool www] child 27295 exited with code 0 after 241.802595 seconds from start
+[27-Sep-2014 13:38:58] NOTICE: [pool www] child 27420 started
+[27-Sep-2014 13:39:34] NOTICE: [pool www] child 27404 exited with code 0 after 63.583405 seconds from start
+[27-Sep-2014 13:39:34] NOTICE: [pool www] child 27422 started
+[27-Sep-2014 13:39:36] NOTICE: [pool www] child 27408 exited with code 0 after 59.542440 seconds from start
+[27-Sep-2014 13:39:36] NOTICE: [pool www] child 27424 started
+[27-Sep-2014 13:39:45] NOTICE: [pool www] child 27402 exited with code 0 after 81.314839 seconds from start
+[27-Sep-2014 13:39:45] NOTICE: [pool www] child 27426 started
+[27-Sep-2014 13:39:50] NOTICE: [pool www] child 27412 exited with code 0 after 62.678900 seconds from start
+[27-Sep-2014 13:39:50] NOTICE: [pool www] child 27454 started
+[27-Sep-2014 13:39:56] NOTICE: [pool www] child 27410 exited with code 0 after 79.106238 seconds from start
+[27-Sep-2014 13:39:56] NOTICE: [pool www] child 27456 started
+[27-Sep-2014 13:40:04] NOTICE: [pool www] child 27416 exited with code 0 after 70.644592 seconds from start
+[27-Sep-2014 13:40:04] NOTICE: [pool www] child 27458 started
+[27-Sep-2014 13:40:08] NOTICE: [pool www] child 27406 exited with code 0 after 91.539433 seconds from start
+[27-Sep-2014 13:40:08] NOTICE: [pool www] child 27460 started
+[27-Sep-2014 13:40:21] NOTICE: [pool www] child 27420 exited with code 0 after 82.943505 seconds from start
+[27-Sep-2014 13:40:21] NOTICE: [pool www] child 27462 started
+[27-Sep-2014 13:40:28] NOTICE: [pool www] child 27414 exited with code 0 after 95.105851 seconds from start
+[27-Sep-2014 13:40:28] NOTICE: [pool www] child 27465 started
+[27-Sep-2014 13:40:28] NOTICE: [pool www] child 27418 exited with code 0 after 91.683936 seconds from start
+[27-Sep-2014 13:40:28] NOTICE: [pool www] child 27467 started
+[27-Sep-2014 13:40:49] NOTICE: [pool www] child 27424 exited with code 0 after 72.707294 seconds from start
+[27-Sep-2014 13:40:49] NOTICE: [pool www] child 27469 started
+[27-Sep-2014 13:40:54] NOTICE: [pool www] child 27422 exited with code 0 after 79.998671 seconds from start
+[27-Sep-2014 13:40:54] NOTICE: [pool www] child 27471 started
+[27-Sep-2014 13:40:55] NOTICE: [pool www] child 27426 exited with code 0 after 69.252466 seconds from start
+[27-Sep-2014 13:40:55] NOTICE: [pool www] child 27473 started
+[27-Sep-2014 13:41:08] NOTICE: [pool www] child 27454 exited with code 0 after 78.374246 seconds from start
+[27-Sep-2014 13:41:08] NOTICE: [pool www] child 27475 started
+[27-Sep-2014 13:41:19] NOTICE: [pool www] child 27456 exited with code 0 after 82.721358 seconds from start
+[27-Sep-2014 13:41:19] NOTICE: [pool www] child 27477 started
+[27-Sep-2014 13:41:20] NOTICE: [pool www] child 27458 exited with code 0 after 76.426538 seconds from start
+[27-Sep-2014 13:41:20] NOTICE: [pool www] child 27479 started
+[27-Sep-2014 13:41:22] NOTICE: [pool www] child 27460 exited with code 0 after 74.059327 seconds from start
+[27-Sep-2014 13:41:22] NOTICE: [pool www] child 27481 started
+[27-Sep-2014 13:41:31] NOTICE: [pool www] child 27465 exited with code 0 after 62.859492 seconds from start
+[27-Sep-2014 13:41:31] NOTICE: [pool www] child 27483 started
+[27-Sep-2014 13:41:38] NOTICE: [pool www] child 27462 exited with code 0 after 76.727098 seconds from start
+[27-Sep-2014 13:41:38] NOTICE: [pool www] child 27485 started
+[27-Sep-2014 13:42:09] NOTICE: [pool www] child 27467 exited with code 0 after 101.350802 seconds from start
+[27-Sep-2014 13:42:09] NOTICE: [pool www] child 27555 started
+[27-Sep-2014 13:42:34] NOTICE: [pool www] child 27469 exited with code 0 after 105.003294 seconds from start
+[27-Sep-2014 13:42:34] NOTICE: [pool www] child 27557 started
+[27-Sep-2014 13:42:35] NOTICE: [pool www] child 27471 exited with code 0 after 100.623671 seconds from start
+[27-Sep-2014 13:42:35] NOTICE: [pool www] child 27559 started
+[27-Sep-2014 13:42:37] NOTICE: [pool www] child 27473 exited with code 0 after 102.560814 seconds from start
+[27-Sep-2014 13:42:37] NOTICE: [pool www] child 27561 started
+[27-Sep-2014 13:42:40] NOTICE: [pool www] child 27475 exited with code 0 after 91.791793 seconds from start
+[27-Sep-2014 13:42:40] NOTICE: [pool www] child 27563 started
+[27-Sep-2014 13:42:53] NOTICE: [pool www] child 27481 exited with code 0 after 91.759336 seconds from start
+[27-Sep-2014 13:42:53] NOTICE: [pool www] child 27565 started
+[27-Sep-2014 13:43:06] NOTICE: [pool www] child 27477 exited with code 0 after 107.836344 seconds from start
+[27-Sep-2014 13:43:06] NOTICE: [pool www] child 27567 started
+[27-Sep-2014 13:43:08] NOTICE: [pool www] child 27479 exited with code 0 after 107.451676 seconds from start
+[27-Sep-2014 13:43:08] NOTICE: [pool www] child 27569 started
+[27-Sep-2014 13:43:18] NOTICE: [pool www] child 27483 exited with code 0 after 107.638280 seconds from start
+[27-Sep-2014 13:43:18] NOTICE: [pool www] child 27571 started
+[27-Sep-2014 13:43:24] NOTICE: [pool www] child 27555 exited with code 0 after 74.759670 seconds from start
+[27-Sep-2014 13:43:24] NOTICE: [pool www] child 27573 started
+[27-Sep-2014 13:43:33] NOTICE: [pool www] child 27557 exited with code 0 after 59.052213 seconds from start
+[27-Sep-2014 13:43:33] NOTICE: [pool www] child 27575 started
+[27-Sep-2014 13:43:42] NOTICE: [pool www] child 27485 exited with code 0 after 123.675775 seconds from start
+[27-Sep-2014 13:43:42] NOTICE: [pool www] child 27577 started
+[27-Sep-2014 13:43:45] NOTICE: [pool www] child 27561 exited with code 0 after 68.114267 seconds from start
+[27-Sep-2014 13:43:45] NOTICE: [pool www] child 27579 started
+[27-Sep-2014 13:43:49] NOTICE: [pool www] child 27559 exited with code 0 after 74.094264 seconds from start
+[27-Sep-2014 13:43:49] NOTICE: [pool www] child 27581 started
+[27-Sep-2014 13:43:51] NOTICE: [pool www] child 27563 exited with code 0 after 71.515108 seconds from start
+[27-Sep-2014 13:43:51] NOTICE: [pool www] child 27583 started
+[27-Sep-2014 13:44:08] NOTICE: [pool www] child 27569 exited with code 0 after 60.735289 seconds from start
+[27-Sep-2014 13:44:08] NOTICE: [pool www] child 27585 started
+[27-Sep-2014 13:44:13] NOTICE: [pool www] child 27565 exited with code 0 after 79.365929 seconds from start
+[27-Sep-2014 13:44:13] NOTICE: [pool www] child 27587 started
+[27-Sep-2014 13:44:18] NOTICE: [pool www] child 27567 exited with code 0 after 71.680516 seconds from start
+[27-Sep-2014 13:44:18] NOTICE: [pool www] child 27589 started
+[27-Sep-2014 13:44:28] NOTICE: [pool www] child 27571 exited with code 0 after 69.905712 seconds from start
+[27-Sep-2014 13:44:28] NOTICE: [pool www] child 27591 started
+[27-Sep-2014 13:44:33] NOTICE: [pool www] child 27573 exited with code 0 after 68.922856 seconds from start
+[27-Sep-2014 13:44:33] NOTICE: [pool www] child 27593 started
+[27-Sep-2014 13:44:59] NOTICE: [pool www] child 27575 exited with code 0 after 85.579312 seconds from start
+[27-Sep-2014 13:44:59] NOTICE: [pool www] child 27595 started
+[27-Sep-2014 13:45:00] NOTICE: [pool www] child 27577 exited with code 0 after 77.973753 seconds from start
+[27-Sep-2014 13:45:00] NOTICE: [pool www] child 27597 started
+[27-Sep-2014 13:45:02] NOTICE: [pool www] child 27579 exited with code 0 after 76.173708 seconds from start
+[27-Sep-2014 13:45:02] NOTICE: [pool www] child 27599 started
+[27-Sep-2014 13:45:03] NOTICE: [pool www] child 27581 exited with code 0 after 73.482390 seconds from start
+[27-Sep-2014 13:45:03] NOTICE: [pool www] child 27601 started
+[27-Sep-2014 13:45:13] NOTICE: [pool www] child 27583 exited with code 0 after 82.040119 seconds from start
+[27-Sep-2014 13:45:13] NOTICE: [pool www] child 27631 started
+[27-Sep-2014 13:45:26] NOTICE: [pool www] child 27585 exited with code 0 after 77.306268 seconds from start
+[27-Sep-2014 13:45:26] NOTICE: [pool www] child 27633 started
+[27-Sep-2014 13:45:28] NOTICE: [pool www] child 27587 exited with code 0 after 75.409438 seconds from start
+[27-Sep-2014 13:45:28] NOTICE: [pool www] child 27635 started
+[27-Sep-2014 13:45:32] NOTICE: [pool www] child 27589 exited with code 0 after 73.666178 seconds from start
+[27-Sep-2014 13:45:32] NOTICE: [pool www] child 27637 started
+[27-Sep-2014 13:45:44] NOTICE: [pool www] child 27593 exited with code 0 after 71.296694 seconds from start
+[27-Sep-2014 13:45:44] NOTICE: [pool www] child 27639 started
+[27-Sep-2014 13:45:48] NOTICE: [pool www] child 27591 exited with code 0 after 79.283637 seconds from start
+[27-Sep-2014 13:45:48] NOTICE: [pool www] child 27641 started
+[27-Sep-2014 13:46:07] NOTICE: [pool www] child 27597 exited with code 0 after 67.084291 seconds from start
+[27-Sep-2014 13:46:07] NOTICE: [pool www] child 27643 started
+[27-Sep-2014 13:46:10] NOTICE: [pool www] child 27595 exited with code 0 after 71.791140 seconds from start
+[27-Sep-2014 13:46:10] NOTICE: [pool www] child 27645 started
+[27-Sep-2014 13:46:11] NOTICE: [pool www] child 27599 exited with code 0 after 69.099383 seconds from start
+[27-Sep-2014 13:46:11] NOTICE: [pool www] child 27647 started
+[27-Sep-2014 13:46:22] NOTICE: [pool www] child 27631 exited with code 0 after 68.277166 seconds from start
+[27-Sep-2014 13:46:22] NOTICE: [pool www] child 27649 started
+[27-Sep-2014 13:46:25] NOTICE: [pool www] child 27601 exited with code 0 after 82.041049 seconds from start
+[27-Sep-2014 13:46:25] NOTICE: [pool www] child 27651 started
+[27-Sep-2014 13:46:32] NOTICE: [pool www] child 27635 exited with code 0 after 63.642350 seconds from start
+[27-Sep-2014 13:46:32] NOTICE: [pool www] child 27653 started
+[27-Sep-2014 13:46:40] NOTICE: [pool www] child 27633 exited with code 0 after 74.624799 seconds from start
+[27-Sep-2014 13:46:40] NOTICE: [pool www] child 27655 started
+[27-Sep-2014 13:46:53] NOTICE: [pool www] child 27637 exited with code 0 after 81.156216 seconds from start
+[27-Sep-2014 13:46:53] NOTICE: [pool www] child 27657 started
+[27-Sep-2014 13:47:06] NOTICE: [pool www] child 27639 exited with code 0 after 81.834858 seconds from start
+[27-Sep-2014 13:47:06] NOTICE: [pool www] child 27659 started
+[27-Sep-2014 13:47:14] NOTICE: [pool www] child 27641 exited with code 0 after 86.513940 seconds from start
+[27-Sep-2014 13:47:14] NOTICE: [pool www] child 27661 started
+[27-Sep-2014 13:47:16] NOTICE: [pool www] child 27643 exited with code 0 after 68.638795 seconds from start
+[27-Sep-2014 13:47:16] NOTICE: [pool www] child 27663 started
+[27-Sep-2014 13:47:26] NOTICE: [pool www] child 27647 exited with code 0 after 74.983184 seconds from start
+[27-Sep-2014 13:47:26] NOTICE: [pool www] child 27665 started
+[27-Sep-2014 13:47:33] NOTICE: [pool www] child 27645 exited with code 0 after 82.584462 seconds from start
+[27-Sep-2014 13:47:33] NOTICE: [pool www] child 27667 started
+[27-Sep-2014 13:47:33] NOTICE: [pool www] child 27649 exited with code 0 after 71.736628 seconds from start
+[27-Sep-2014 13:47:33] NOTICE: [pool www] child 27669 started
+[27-Sep-2014 13:47:44] NOTICE: [pool www] child 27653 exited with code 0 after 71.749383 seconds from start
+[27-Sep-2014 13:47:44] NOTICE: [pool www] child 27671 started
+[27-Sep-2014 13:50:34] NOTICE: Terminating ...
+[27-Sep-2014 13:50:34] NOTICE: exiting, bye-bye!

@@ -1,0 +1,46 @@
+NAME
+    Module::Reader - Read the source of a module like perl does
+
+SYNOPSIS
+        use Module::Reader qw(:all);
+        my $io = module_handle('My::Module');
+        my $content = module_content('My::Module');
+    
+        my $io = module_handle('My::Module', @search_dirs);
+    
+        my $io = module_handle('My::Module', @search_dirs, { found => \%INC });
+
+DESCRIPTION
+    Reads the content of perl modules the same way perl does. This includes
+    reading modules available only by @INC hooks, or filtered through them.
+
+EXPORTS
+  module_handle( $module_name, @search_dirs, \%options )
+    Returns an IO handle to the given module. Searches the directories
+    specified, or @INC if none are.
+
+   Options
+    found
+        A reference to a hash like %INC with module file names (in the style
+        'My/Module.pm') as keys and full file paths as values. Modules
+        listed in this will be used in preference to searching through
+        directories.
+
+  module_content( $module_name, @search_dirs, \%options )
+    Returns the content of the given module. Accepts the same options as
+    "module_handle".
+
+AUTHOR
+    haarg - Graham Knop (cpan:HAARG) <haarg@haarg.org>
+
+  CONTRIBUTORS
+    None yet.
+
+COPYRIGHT
+    Copyright (c) 2013 the Module::Reader "AUTHOR" and "CONTRIBUTORS" as
+    listed above.
+
+LICENSE
+    This library is free software and may be distributed under the same
+    terms as perl itself.
+

@@ -1,0 +1,34 @@
+---
+abstract: 'Lexically warn about using the indirect method call syntax.'
+author:
+  - 'Vincent Pit <perl@profvince.com>'
+build_requires:
+  Carp: '0'
+  Config: '0'
+  ExtUtils::MakeMaker: '0'
+  Test::More: '0'
+  XSLoader: '0'
+configure_requires:
+  Config: '0'
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: indirect
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Carp: '0'
+  XSLoader: '0'
+  perl: '5.008001'
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Name=indirect
+  homepage: http://search.cpan.org/dist/indirect/
+  license: http://dev.perl.org/licenses/
+  repository: http://git.profvince.com/?p=perl%2Fmodules%2Findirect.git
+version: '0.32'

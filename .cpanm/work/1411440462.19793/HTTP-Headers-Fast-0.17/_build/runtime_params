@@ -1,0 +1,10 @@
+do{ my $x = {
+       'config' => {
+                     'installman1dir' => '',
+                     'installsiteman3dir' => '',
+                     'installman3dir' => '',
+                     'installsiteman1dir' => ''
+                   },
+       'install_base' => '/home/isucon/webapp/perl/local'
+     };
+$x; }

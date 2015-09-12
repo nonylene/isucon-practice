@@ -1,0 +1,44 @@
+Revision history for Perl extension Router-Boom
+
+1.01 2014-02-24T08:07:41Z
+
+    - Added EXPERIMENTAL 'Router::Boom::Method#routes' method.
+
+1.00 2013-11-27T00:25:59Z
+
+    - Bump up to 1.00.
+
+0.07 2013-10-16T02:10:31Z
+
+    - Router::Boom::Method accepts $router->add([qw(GET HEAD)], ...).
+      (tokuhirom)
+
+0.06 2013-10-15T23:20:45Z
+
+    - Added Router::Boom::Method
+      (tokuhirom)
+
+0.05 2013-10-14T00:04:37Z
+
+    - Fixed deps
+      (syohex)
+
+0.04 2013-10-12T03:08:23Z
+
+    - no Moo; use Class::Accessor::Lite;
+      (tokuhirom)
+
+0.03 2013-10-12T01:35:35Z
+
+    - use m// op with \G instead of s///
+      (gfx)
+
+0.02 2013-10-12T01:27:00Z
+
+    - `{year:(?:.)}` style capturing.
+      (tokuhirom)
+
+0.01 2013-10-12T00:25:18Z
+
+    - original version
+

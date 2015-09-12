@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installsiteman1dir' => '',
+         'installman3dir' => '',
+         'installsiteman3dir' => '',
+         'installman1dir' => ''
+       },
+       {
+         'verbose' => undef,
+         'test_requires' => {},
+         'bundle_inc' => [],
+         'install_base_relpaths' => {},
+         'extra_linker_flags' => [],
+         'build_bat' => 0,
+         'dynamic_config' => 0,
+         'name' => 'Module-Build-XSUtil',
+         'config' => undef,
+         'license' => 'perl',
+         'installdirs' => 'site',
+         'recursive_test_files' => 1,
+         'needs_compiler' => 1,
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Module-Build-XSUtil-0.14',
+         'dist_version' => '0.14',
+         'autosplit' => undef,
+         'create_makefile_pl' => undef,
+         'sign' => undef,
+         'create_readme' => undef,
+         'recommends' => {},
+         'conflicts' => {},
+         'dist_abstract' => undef,
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1411440462.19793/Module-Build-XSUtil-0.14/_build/lib',
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ],
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'debugger' => undef,
+         'release_status' => 'stable',
+         'auto_configure_requires' => 1,
+         'mb_version' => '0.421',
+         'base_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Module-Build-XSUtil-0.14',
+         'debug' => undef,
+         'xs_files' => undef,
+         'bundle_inc_preload' => [],
+         'install_sets' => {},
+         'use_tap_harness' => 0,
+         'recurse_into' => [],
+         'create_license' => undef,
+         'use_rcfile' => 1,
+         'allow_mb_mismatch' => 0,
+         'html_css' => '',
+         '_have_c_compiler' => 1,
+         'include_dirs' => [],
+         'c_source' => [],
+         'pod_files' => undef,
+         'original_prefix' => {},
+         'dist_name' => 'Module-Build-XSUtil',
+         'build_class' => 'MyBuilder',
+         'extra_manify_args' => undef,
+         'magic_number' => undef,
+         'mymetafile' => 'MYMETA.yml',
+         'dist_suffix' => undef,
+         'module_name' => 'Module::Build::XSUtil',
+         'install_path' => {},
+         'build_requires' => {
+                               'ExtUtils::CBuilder' => 0
+                             },
+         'pollute' => undef,
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'destdir' => undef,
+         'get_options' => {},
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'allow_pureperl' => 0,
+         'blib' => 'blib',
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'extra_compiler_flags' => [],
+         'meta_merge' => {},
+         'pureperl_only' => 0,
+         'metafile2' => 'META.json',
+         'dist_author' => undef,
+         'program_name' => undef,
+         'requires' => {},
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'share_dir' => undef,
+         'script_files' => [],
+         'prefix' => undef,
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'create_packlist' => 1,
+         'has_config_data' => undef,
+         'dist_version_from' => 'lib/Module/Build/XSUtil.pm',
+         'PL_files' => {},
+         'meta_add' => {},
+         'pm_files' => undef,
+         'test_files' => 't/',
+         'quiet' => undef,
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'prefix_relpaths' => {},
+         'config_dir' => '_build',
+         'metafile' => 'META.yml',
+         'scripts' => undef,
+         'tap_harness_args' => {},
+         'mymetafile2' => 'MYMETA.json',
+         'cpan_client' => 'cpan',
+         'build_script' => 'Build'
+       }
+     ];
+$x; }

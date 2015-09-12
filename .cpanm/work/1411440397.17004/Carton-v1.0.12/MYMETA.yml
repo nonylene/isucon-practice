@@ -1,0 +1,62 @@
+---
+abstract: 'Perl module dependency manager (aka Bundler for Perl)'
+author:
+  - 'Tatsuhiko Miyagawa'
+build_requires:
+  Module::Build: '0.3601'
+configure_requires:
+  Module::Build: '0.3601'
+  version: '0.77'
+dynamic_config: 0
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Carton
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+requires:
+  App::FatPacker: '0.009018'
+  App::cpanminus: '1.694'
+  CPAN::Meta: '2.120921'
+  CPAN::Meta::Requirements: '2.121'
+  Exception::Class: '1.32'
+  ExtUtils::MakeMaker: '6.64'
+  File::pushd: '0'
+  Getopt::Long: '2.39'
+  JSON: '2.53'
+  Module::Build: '0.4004'
+  Module::CPANfile: '0.9031'
+  Module::CoreList: '0'
+  Module::Metadata: '1.000003'
+  Module::Reader: '0.002'
+  Moo: '1.002'
+  Path::Tiny: '0.033'
+  Try::Tiny: '0.09'
+  parent: '0.223'
+  perl: v5.8.5
+resources:
+  bugtracker: https://github.com/miyagawa/carton/issues
+  homepage: https://github.com/miyagawa/carton
+  repository: https://github.com/miyagawa/carton.git
+version: v1.0.12
+x_contributors:
+  - 'Christian Walde <walde.christian@googlemail.com>'
+  - 'David Golden <dagolden@cpan.org>'
+  - 'David Steinbrunner <dsteinbrunner@pobox.com>'
+  - 'Kan Fushihara <kan.fushihara@gmail.com>'
+  - 'Masahiro Chiba <chiba@everqueue.com>'
+  - 'NAKAGAWA Masaki <masaki.nakagawa@gmail.com>'
+  - 'Olaf Alders <olaf@wundersolutions.com>'
+  - 'Pedro Figueiredo <me@pedrofigueiredo.org>'
+  - 'Tatsuhiko Miyagawa <miyagawa@gmail.com>'
+  - 'Yanick Champoux <yanick@babyl.dyndns.org>'
+  - 'ikasam_a <masaki.nakagawa@gmail.com>'
+  - 'shiba_yu36 <shibayu36@gmail.com>'

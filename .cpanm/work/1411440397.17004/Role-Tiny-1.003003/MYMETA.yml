@@ -1,0 +1,30 @@
+---
+abstract: 'Roles. Like a nouvelle cuisine portion size slice of Moose.'
+author:
+  - 'mst - Matt S. Trout (cpan:MSTROUT) <mst@shadowcat.co.uk>'
+build_requires:
+  Test::Fatal: '0.003'
+  Test::More: '0.96'
+configure_requires: {}
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.9, CPAN::Meta::Converter version 2.140640, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Role-Tiny
+no_index:
+  directory:
+    - t
+    - xt
+recommends:
+  Class::Method::Modifiers: '1.05'
+requires:
+  Exporter: '5.57'
+  perl: '5.006'
+resources:
+  IRC: irc://irc.perl.org/#moose
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Role-Tiny
+  license: http://dev.perl.org/licenses/
+  repository: git://git.shadowcat.co.uk/gitmo/Role-Tiny.git
+version: '1.003003'

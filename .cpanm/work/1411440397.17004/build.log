@@ -1,0 +1,1549 @@
+cpanm (App::cpanminus) 1.7009 on perl 5.020000 built for x86_64-linux
+Work directory is /home/isucon/.cpanm/work/1411440397.17004
+You have make /usr/bin/make
+You have /usr/bin/wget
+You have /bin/tar: tar (GNU tar) 1.26
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /usr/bin/unzip
+Searching App::cpanminus on cpanmetadb ...
+--> Working on App::cpanminus
+Fetching http://www.cpan.org/authors/id/M/MI/MIYAGAWA/App-cpanminus-1.7011.tar.gz
+-> OK
+Unpacking App-cpanminus-1.7011.tar.gz
+Entering App-cpanminus-1.7011
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring App-cpanminus-1.7011
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for App::cpanminus
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (6.98)
+Checking if you have Module::Build 0.38 ... No (0.4205 < 0.38)
+Checking if you have ExtUtils::Install 1.46 ... Yes (1.67)
+==> Found dependencies: Module::Build
+Searching Module::Build on cpanmetadb ...
+--> Working on Module::Build
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/Module-Build-0.4210.tar.gz
+-> OK
+Unpacking Module-Build-0.4210.tar.gz
+Entering Module-Build-0.4210
+Checking configure dependencies from META.json
+Checking if you have CPAN::Meta 2.142060 ... No (2.140640 < 2.142060)
+Checking if you have Perl::OSType 1 ... Yes (1.007)
+Checking if you have Module::Metadata 1.000002 ... Yes (1.000019)
+Checking if you have version 0.87 ... Yes (0.9908)
+==> Found dependencies: CPAN::Meta
+Searching CPAN::Meta on cpanmetadb ...
+--> Working on CPAN::Meta
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+-> OK
+Unpacking CPAN-Meta-2.142060.tar.gz
+Entering CPAN-Meta-2.142060
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.17 ... Yes (6.98)
+Configuring CPAN-Meta-2.142060
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for CPAN::Meta
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have version 0.88 ... Yes (0.9908)
+Checking if you have JSON::PP 2.27200 ... Yes (2.27203)
+Checking if you have Scalar::Util 0 ... Yes (1.38)
+Checking if you have CPAN::Meta::YAML 0.008 ... Yes (0.012)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have CPAN::Meta::Requirements 2.121 ... Yes (2.125)
+Checking if you have Parse::CPAN::Meta 1.4414 ... Yes (1.4414)
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have Carp 0 ... Yes (1.3301)
+Checking if you have strict 0 ... Yes (1.08)
+Building CPAN-Meta-2.142060
+cp lib/CPAN/Meta/Converter.pm blib/lib/CPAN/Meta/Converter.pm
+cp lib/CPAN/Meta/Spec.pm blib/lib/CPAN/Meta/Spec.pm
+cp lib/CPAN/Meta/Validator.pm blib/lib/CPAN/Meta/Validator.pm
+cp lib/CPAN/Meta.pm blib/lib/CPAN/Meta.pm
+cp lib/CPAN/Meta/Feature.pm blib/lib/CPAN/Meta/Feature.pm
+cp lib/CPAN/Meta/Merge.pm blib/lib/CPAN/Meta/Merge.pm
+cp lib/CPAN/Meta/History.pm blib/lib/CPAN/Meta/History.pm
+cp lib/CPAN/Meta/Prereqs.pm blib/lib/CPAN/Meta/Prereqs.pm
+Manifying blib/man3/CPAN::Meta.3
+Manifying blib/man3/CPAN::Meta::Converter.3
+Manifying blib/man3/CPAN::Meta::Feature.3
+Manifying blib/man3/CPAN::Meta::History.3
+Manifying blib/man3/CPAN::Meta::Merge.3
+Manifying blib/man3/CPAN::Meta::Prereqs.3
+Manifying blib/man3/CPAN::Meta::Spec.3
+Manifying blib/man3/CPAN::Meta::Validator.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/CPAN/Meta.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/CPAN/Meta/Merge.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/CPAN/Meta/Prereqs.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/CPAN/Meta/Feature.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/CPAN/Meta/Validator.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/CPAN/Meta/Spec.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/CPAN/Meta/Converter.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/CPAN/Meta/History.pm
+Installing /home/isucon/.local/perl/man/man3/CPAN::Meta::Prereqs.3
+Installing /home/isucon/.local/perl/man/man3/CPAN::Meta::Validator.3
+Installing /home/isucon/.local/perl/man/man3/CPAN::Meta::Feature.3
+Installing /home/isucon/.local/perl/man/man3/CPAN::Meta::Converter.3
+Installing /home/isucon/.local/perl/man/man3/CPAN::Meta::History.3
+Installing /home/isucon/.local/perl/man/man3/CPAN::Meta::Spec.3
+Installing /home/isucon/.local/perl/man/man3/CPAN::Meta::Merge.3
+Installing /home/isucon/.local/perl/man/man3/CPAN::Meta.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed CPAN-Meta-2.142060 (upgraded from 2.140640)
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/CPAN-Meta-2.142060/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/CPAN-Meta-2.142060/install.json
+Configuring Module-Build-0.4210
+Running Build.PL
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Module-Build' version '0.4210'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::Install 0 ... Yes (1.67)
+Checking if you have File::Find 0 ... Yes (1.27)
+Checking if you have Pod::Man 2.17 ... Yes (2.28)
+Checking if you have version 0.87 ... Yes (0.9908)
+Checking if you have Test::More 0.49 ... Yes (1.001002)
+Checking if you have ExtUtils::CBuilder 0.27 ... Yes (0.280216)
+Checking if you have File::Compare 0 ... Yes (1.1006)
+Checking if you have Parse::CPAN::Meta 1.4401 ... Yes (1.4414)
+Checking if you have ExtUtils::Manifest 0 ... Yes (1.63)
+Checking if you have File::Basename 0 ... Yes (2.85)
+Checking if you have Test::Harness 3.16 ... Yes (3.30)
+Checking if you have File::Path 0 ... Yes (2.09)
+Checking if you have Text::Abbrev 0 ... Yes (1.02)
+Checking if you have CPAN::Meta::YAML 0.003 ... Yes (0.012)
+Checking if you have Cwd 0 ... Yes (3.47)
+Checking if you have File::Spec 0.82 ... Yes (3.47)
+Checking if you have Perl::OSType 1 ... Yes (1.007)
+Checking if you have Module::Metadata 1.000002 ... Yes (1.000019)
+Checking if you have CPAN::Meta 2.142060 ... Yes (2.142060)
+Checking if you have File::Copy 0 ... Yes (2.29)
+Checking if you have ExtUtils::ParseXS 2.21 ... Yes (3.24)
+Checking if you have Text::ParseWords 0 ... Yes (3.29)
+Checking if you have File::Temp 0.15 ... Yes (0.2304)
+Checking if you have Data::Dumper 0 ... Yes (2.151)
+Checking if you have ExtUtils::Mkbootstrap 0 ... Yes (6.98)
+Checking if you have Getopt::Long 0 ... Yes (2.42)
+Building Module-Build-0.4210
+Building Module-Build
+Building Module-Build
+Installing /home/isucon/.local/perl/man/man1/config_data.1
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/inc/latest.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/inc/latest/private.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/PPMMaker.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Authoring.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Config.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Notes.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/ConfigData.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Bundling.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Dumper.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/PodParser.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Base.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Cookbook.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Compat.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/API.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Platform/Default.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Platform/VOS.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Platform/os2.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Platform/Unix.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Platform/darwin.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Platform/VMS.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Platform/Windows.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Platform/aix.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Platform/cygwin.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Build/Platform/MacOS.pm
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Platform::Unix.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Platform::aix.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Compat.3
+Installing /home/isucon/.local/perl/man/man3/inc::latest.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Platform::Windows.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Platform::Default.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Notes.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Platform::darwin.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Platform::os2.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Authoring.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Cookbook.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Bundling.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::API.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Platform::VOS.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::PPMMaker.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Platform::cygwin.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Platform::MacOS.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Platform::VMS.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::ConfigData.3
+Installing /home/isucon/.local/perl/man/man3/Module::Build::Base.3
+Installing /home/isucon/.local/perl/bin/config_data
+-> OK
+Successfully installed Module-Build-0.4210 (upgraded from 0.4205)
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Module-Build-0.4210/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Module-Build-0.4210/install.json
+Building App-cpanminus-1.7011
+cp lib/App/cpanminus.pm blib/lib/App/cpanminus.pm
+cp lib/App/cpanminus/fatscript.pm blib/lib/App/cpanminus/fatscript.pm
+cp bin/cpanm blib/script/cpanm
+/home/isucon/.local/perl/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/cpanm
+Manifying blib/man1/cpanm.1
+Manifying blib/man3/App::cpanminus.3
+Manifying blib/man3/App::cpanminus::fatscript.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/App/cpanminus.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/App/cpanminus/fatscript.pm
+Installing /home/isucon/.local/perl/man/man1/cpanm.1
+Installing /home/isucon/.local/perl/man/man3/App::cpanminus.3
+Installing /home/isucon/.local/perl/man/man3/App::cpanminus::fatscript.3
+Installing /home/isucon/.local/perl/bin/cpanm
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed App-cpanminus-1.7011
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/App-cpanminus-1.7011/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/App-cpanminus-1.7011/install.json
+Searching Carton on cpanmetadb ...
+--> Working on Carton
+Fetching http://www.cpan.org/authors/id/M/MI/MIYAGAWA/Carton-v1.0.12.tar.gz
+-> OK
+Unpacking Carton-v1.0.12.tar.gz
+Entering Carton-v1.0.12
+Checking configure dependencies from META.json
+Checking if you have version 0.77 ... Yes (0.9908)
+Checking if you have Module::Build 0.3601 ... Yes (0.4210)
+Configuring Carton-v1.0.12
+Running Build.PL
+Checking prerequisites...
+  requires:
+    !  App::FatPacker is not installed
+    !  Exception::Class is not installed
+    !  File::pushd is not installed
+    !  JSON is not installed
+    !  Module::CPANfile is not installed
+    !  Module::Reader is not installed
+    !  Moo is not installed
+    !  Path::Tiny is not installed
+    !  Try::Tiny is not installed
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Carton' version 'v1.0.12'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Exception::Class 1.32 ... No
+Checking if you have Try::Tiny 0.09 ... No
+Checking if you have Module::Metadata 1.000003 ... Yes (1.000019)
+Checking if you have App::cpanminus 1.694 ... Yes (1.7011)
+Checking if you have App::FatPacker 0.009018 ... No
+Checking if you have JSON 2.53 ... No
+Checking if you have CPAN::Meta 2.120921 ... Yes (2.142060)
+Checking if you have Module::Reader 0.002 ... No
+Checking if you have Moo 1.002 ... No
+Checking if you have Getopt::Long 2.39 ... Yes (2.42)
+Checking if you have Module::CoreList 0 ... Yes (3.11)
+Checking if you have Module::CPANfile 0.9031 ... No
+Checking if you have CPAN::Meta::Requirements 2.121 ... Yes (2.125)
+Checking if you have File::pushd 0 ... No
+Checking if you have Module::Build 0.4004 ... Yes (0.4210)
+Checking if you have parent 0.223 ... Yes (0.228)
+Checking if you have Path::Tiny 0.033 ... No
+Checking if you have ExtUtils::MakeMaker 6.64 ... Yes (6.98)
+==> Found dependencies: Exception::Class, Try::Tiny, App::FatPacker, JSON, Module::Reader, Moo, Module::CPANfile, File::pushd, Path::Tiny
+Searching Exception::Class on cpanmetadb ...
+--> Working on Exception::Class
+Fetching http://www.cpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.38.tar.gz
+-> OK
+Unpacking Exception-Class-1.38.tar.gz
+Entering Exception-Class-1.38
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.30 ... Yes (6.98)
+Configuring Exception-Class-1.38
+Running Makefile.PL
+Warning: prerequisite Class::Data::Inheritable 0.02 not found.
+Warning: prerequisite Devel::StackTrace 1.20 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Exception::Class
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have base 0 ... Yes (2.22)
+Checking if you have Scalar::Util 0 ... Yes (1.38)
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have Class::Data::Inheritable 0.02 ... No
+Checking if you have overload 0 ... Yes (1.22)
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have Devel::StackTrace 1.20 ... No
+==> Found dependencies: Class::Data::Inheritable, Devel::StackTrace
+Searching Class::Data::Inheritable on cpanmetadb ...
+--> Working on Class::Data::Inheritable
+Fetching http://www.cpan.org/authors/id/T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
+-> OK
+Unpacking Class-Data-Inheritable-0.08.tar.gz
+Entering Class-Data-Inheritable-0.08
+Checking configure dependencies from META.yml
+Configuring Class-Data-Inheritable-0.08
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Class::Data::Inheritable
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building Class-Data-Inheritable-0.08
+cp lib/Class/Data/Inheritable.pm blib/lib/Class/Data/Inheritable.pm
+Manifying blib/man3/Class::Data::Inheritable.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Class/Data/Inheritable.pm
+Installing /home/isucon/.local/perl/man/man3/Class::Data::Inheritable.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Class-Data-Inheritable-0.08
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Class-Data-Inheritable-0.08/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Class-Data-Inheritable-0.08/install.json
+Searching Devel::StackTrace on cpanmetadb ...
+--> Working on Devel::StackTrace
+Fetching http://www.cpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-1.34.tar.gz
+-> OK
+Unpacking Devel-StackTrace-1.34.tar.gz
+Entering Devel-StackTrace-1.34
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.30 ... Yes (6.98)
+Configuring Devel-StackTrace-1.34
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Devel::StackTrace
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have File::Spec 0 ... Yes (3.47)
+Checking if you have overload 0 ... Yes (1.22)
+Checking if you have Scalar::Util 0 ... Yes (1.38)
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have strict 0 ... Yes (1.08)
+Building Devel-StackTrace-1.34
+cp lib/Devel/StackTrace/Frame.pm blib/lib/Devel/StackTrace/Frame.pm
+cp lib/Devel/StackTrace.pm blib/lib/Devel/StackTrace.pm
+Manifying blib/man3/Devel::StackTrace.3
+Manifying blib/man3/Devel::StackTrace::Frame.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Devel/StackTrace.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Devel/StackTrace/Frame.pm
+Installing /home/isucon/.local/perl/man/man3/Devel::StackTrace.3
+Installing /home/isucon/.local/perl/man/man3/Devel::StackTrace::Frame.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Devel-StackTrace-1.34
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Devel-StackTrace-1.34/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Devel-StackTrace-1.34/install.json
+Building Exception-Class-1.38
+cp lib/Exception/Class.pm blib/lib/Exception/Class.pm
+cp lib/Exception/Class/Base.pm blib/lib/Exception/Class/Base.pm
+Manifying blib/man3/Exception::Class.3
+Manifying blib/man3/Exception::Class::Base.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Exception/Class.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Exception/Class/Base.pm
+Installing /home/isucon/.local/perl/man/man3/Exception::Class.3
+Installing /home/isucon/.local/perl/man/man3/Exception::Class::Base.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Exception-Class-1.38
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Exception-Class-1.38/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Exception-Class-1.38/install.json
+Searching Try::Tiny on cpanmetadb ...
+--> Working on Try::Tiny
+Fetching http://www.cpan.org/authors/id/D/DO/DOY/Try-Tiny-0.22.tar.gz
+-> OK
+Unpacking Try-Tiny-0.22.tar.gz
+Entering Try-Tiny-0.22
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.30 ... Yes (6.98)
+Configuring Try-Tiny-0.22
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Try::Tiny
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Exporter 5.57 ... Yes (5.70)
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have Carp 0 ... Yes (1.3301)
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have constant 0 ... Yes (1.31)
+Building Try-Tiny-0.22
+cp lib/Try/Tiny.pm blib/lib/Try/Tiny.pm
+Manifying blib/man3/Try::Tiny.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Try/Tiny.pm
+Installing /home/isucon/.local/perl/man/man3/Try::Tiny.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Try-Tiny-0.22
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Try-Tiny-0.22/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Try-Tiny-0.22/install.json
+Searching App::FatPacker on cpanmetadb ...
+--> Working on App::FatPacker
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/App-FatPacker-0.010002.tar.gz
+-> OK
+Unpacking App-FatPacker-0.010002.tar.gz
+Entering App-FatPacker-0.010002
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring App-FatPacker-0.010002
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for App::FatPacker
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building App-FatPacker-0.010002
+cp lib/App/FatPacker.pm blib/lib/App/FatPacker.pm
+cp lib/App/FatPacker/Trace.pm blib/lib/App/FatPacker/Trace.pm
+cp bin/fatpack blib/script/fatpack
+/home/isucon/.local/perl/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/fatpack
+Manifying blib/man1/fatpack.1
+Manifying blib/man3/App::FatPacker.3
+Manifying blib/man3/App::FatPacker::Trace.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/App/FatPacker.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/App/FatPacker/Trace.pm
+Installing /home/isucon/.local/perl/man/man1/fatpack.1
+Installing /home/isucon/.local/perl/man/man3/App::FatPacker.3
+Installing /home/isucon/.local/perl/man/man3/App::FatPacker::Trace.3
+Installing /home/isucon/.local/perl/bin/fatpack
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed App-FatPacker-0.010002
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/App-FatPacker-0.010002/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/App-FatPacker-0.010002/install.json
+Searching JSON on cpanmetadb ...
+--> Working on JSON
+Fetching http://www.cpan.org/authors/id/M/MA/MAKAMAKA/JSON-2.90.tar.gz
+-> OK
+Unpacking JSON-2.90.tar.gz
+Entering JSON-2.90
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring JSON-2.90
+Running Makefile.PL
+Welcome to JSON (v.2.90)
+=============================
+
+
+ *************************** CAUTION **************************************
+ *                                                                        *
+ * INCOMPATIBLE CHANGE (JSON::XS version 2.90)                            *
+ *                                                                        *
+ * JSON.pm had patched JSON::XS::Boolean and JSON::PP::Boolean internally *
+ * on loading time for making these modules inherit JSON::Boolean.        *
+ * But since JSON::XS v3.0 it use Types::Serialiser as boolean class.     *
+ * Then now JSON.pm breaks boolean classe overload features and           *
+ * -support_by_pp if JSON::XS v3.0 or later is installed.                 *
+ *                                                                        *
+ * JSON::true and JSON::false returned JSON::Boolean objects.             *
+ * For workaround, they return JSON::PP::Boolean objects in this version. *
+ *                                                                        *
+ *     isa_ok(JSON::true, 'JSON::PP::Boolean');                           *
+ *                                                                        *
+ * And it discards a feature:                                             *
+ *                                                                        *
+ *     ok(JSON::true eq 'true');                                          *
+ *                                                                        *
+ * In other word, JSON::PP::Boolean overload numeric only.                *
+ *                                                                        *
+ *     ok( JSON::true == 1 );                                             *
+ *                                                                        *
+ **************************************************************************
+
+
+ ************************** CAUTION **************************
+ * This is 'JSON version 2' and there are many differences   *
+ * to version 1.xx                                           *
+ * Please check your applications useing old version.        *
+ *   See to 'INCOMPATIBLE CHANGES TO OLD VERSION' and 'TIPS' *
+ *************************************************************
+
+
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for JSON
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0 ... Yes (1.001002)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building JSON-2.90
+cp lib/JSON.pm blib/lib/JSON.pm
+cp lib/JSON/backportPP/Compat5005.pm blib/lib/JSON/backportPP/Compat5005.pm
+cp lib/JSON/backportPP/Compat5006.pm blib/lib/JSON/backportPP/Compat5006.pm
+cp lib/JSON/backportPP.pm blib/lib/JSON/backportPP.pm
+cp lib/JSON/backportPP/Boolean.pm blib/lib/JSON/backportPP/Boolean.pm
+Manifying blib/man3/JSON.3
+Manifying blib/man3/JSON::backportPP.3
+Manifying blib/man3/JSON::backportPP::Boolean.3
+Manifying blib/man3/JSON::backportPP::Compat5005.3
+Manifying blib/man3/JSON::backportPP::Compat5006.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/JSON.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/JSON/backportPP.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/JSON/backportPP/Boolean.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/JSON/backportPP/Compat5005.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/JSON/backportPP/Compat5006.pm
+Installing /home/isucon/.local/perl/man/man3/JSON::backportPP::Compat5005.3
+Installing /home/isucon/.local/perl/man/man3/JSON.3
+Installing /home/isucon/.local/perl/man/man3/JSON::backportPP.3
+Installing /home/isucon/.local/perl/man/man3/JSON::backportPP::Boolean.3
+Installing /home/isucon/.local/perl/man/man3/JSON::backportPP::Compat5006.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed JSON-2.90
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/JSON-2.90/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/JSON-2.90/install.json
+Searching Module::Reader on cpanmetadb ...
+--> Working on Module::Reader
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/Module-Reader-0.002003.tar.gz
+-> OK
+Unpacking Module-Reader-0.002003.tar.gz
+Entering Module-Reader-0.002003
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring Module-Reader-0.002003
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Module::Reader
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Scalar::Util 0 ... Yes (1.38)
+Building Module-Reader-0.002003
+cp lib/Module/Reader.pm blib/lib/Module/Reader.pm
+Manifying blib/man3/Module::Reader.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Reader.pm
+Installing /home/isucon/.local/perl/man/man3/Module::Reader.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Module-Reader-0.002003
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Module-Reader-0.002003/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Module-Reader-0.002003/install.json
+Searching Moo on cpanmetadb ...
+--> Working on Moo
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/Moo-1.006000.tar.gz
+-> OK
+Unpacking Moo-1.006000.tar.gz
+Entering Moo-1.006000
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring Moo-1.006000
+Running Makefile.PL
+Warning: prerequisite Class::Method::Modifiers 1.1 not found.
+Warning: prerequisite Devel::GlobalDestruction 0.11 not found.
+Warning: prerequisite Import::Into 1.002 not found.
+Warning: prerequisite Module::Runtime 0.014 not found.
+Warning: prerequisite Role::Tiny 1.003003 not found.
+Warning: prerequisite strictures 1.004003 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Moo
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Role::Tiny 1.003003 ... No
+Checking if you have Class::Method::Modifiers 1.1 ... No
+Checking if you have Module::Runtime 0.014 ... No
+Checking if you have strictures 1.004003 ... No
+Checking if you have Scalar::Util 0 ... Yes (1.38)
+Checking if you have Devel::GlobalDestruction 0.11 ... No
+Checking if you have Import::Into 1.002 ... No
+==> Found dependencies: Role::Tiny, Class::Method::Modifiers, Module::Runtime, strictures, Devel::GlobalDestruction, Import::Into
+Searching Role::Tiny on cpanmetadb ...
+--> Working on Role::Tiny
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/Role-Tiny-1.003003.tar.gz
+-> OK
+Unpacking Role-Tiny-1.003003.tar.gz
+Entering Role-Tiny-1.003003
+Checking configure dependencies from META.json
+Configuring Role-Tiny-1.003003
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Role::Tiny
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Exporter 5.57 ... Yes (5.70)
+Building Role-Tiny-1.003003
+cp lib/Role/Tiny/With.pm blib/lib/Role/Tiny/With.pm
+cp lib/Role/Tiny.pm blib/lib/Role/Tiny.pm
+Manifying blib/man3/Role::Tiny.3
+Manifying blib/man3/Role::Tiny::With.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Role/Tiny.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Role/Tiny/With.pm
+Installing /home/isucon/.local/perl/man/man3/Role::Tiny.3
+Installing /home/isucon/.local/perl/man/man3/Role::Tiny::With.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Role-Tiny-1.003003
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Role-Tiny-1.003003/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Role-Tiny-1.003003/install.json
+Searching Class::Method::Modifiers on cpanmetadb ...
+--> Working on Class::Method::Modifiers
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/Class-Method-Modifiers-2.11.tar.gz
+-> OK
+Unpacking Class-Method-Modifiers-2.11.tar.gz
+Entering Class-Method-Modifiers-2.11
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring Class-Method-Modifiers-2.11
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Class::Method::Modifiers
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have B 0 ... Yes (1.48)
+Checking if you have base 0 ... Yes (2.22)
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have Carp 0 ... Yes (1.3301)
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have Exporter 0 ... Yes (5.70)
+Building Class-Method-Modifiers-2.11
+cp lib/Class/Method/Modifiers.pm blib/lib/Class/Method/Modifiers.pm
+Manifying blib/man3/Class::Method::Modifiers.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Class/Method/Modifiers.pm
+Installing /home/isucon/.local/perl/man/man3/Class::Method::Modifiers.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Class-Method-Modifiers-2.11
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Class-Method-Modifiers-2.11/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Class-Method-Modifiers-2.11/install.json
+Searching Module::Runtime on cpanmetadb ...
+--> Working on Module::Runtime
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.014.tar.gz
+-> OK
+Unpacking Module-Runtime-0.014.tar.gz
+Entering Module-Runtime-0.014
+Checking configure dependencies from META.json
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have Module::Build 0 ... Yes (0.4210)
+Configuring Module-Runtime-0.014
+Running Build.PL
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Module-Runtime' version '0.014'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have Test::More 0 ... Yes (1.001002)
+Checking if you have Module::Build 0 ... Yes (0.4210)
+Building Module-Runtime-0.014
+Building Module-Runtime
+Building Module-Runtime
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/Runtime.pm
+Installing /home/isucon/.local/perl/man/man3/Module::Runtime.3
+-> OK
+Successfully installed Module-Runtime-0.014
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Module-Runtime-0.014/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Module-Runtime-0.014/install.json
+Searching strictures on cpanmetadb ...
+--> Working on strictures
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/strictures-1.005005.tar.gz
+-> OK
+Unpacking strictures-1.005005.tar.gz
+Entering strictures-1.005005
+Checking configure dependencies from META.json
+Configuring strictures-1.005005
+Running Makefile.PL
+Warning: prerequisite bareword::filehandles 0 not found.
+Warning: prerequisite indirect 0 not found.
+Warning: prerequisite multidimensional 0 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for strictures
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have multidimensional 0 ... No
+Checking if you have bareword::filehandles 0 ... No
+Checking if you have indirect 0 ... No
+==> Found dependencies: multidimensional, bareword::filehandles, indirect
+Searching multidimensional on cpanmetadb ...
+--> Working on multidimensional
+Fetching http://www.cpan.org/authors/id/I/IL/ILMARI/multidimensional-0.011.tar.gz
+-> OK
+Unpacking multidimensional-0.011.tar.gz
+Entering multidimensional-0.011
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::Depends 0 ... No
+Checking if you have CPAN::Meta 2.112580 ... Yes (2.142060)
+Checking if you have B::Hooks::OP::Check 0 ... No
+Checking if you have ExtUtils::MakeMaker 6.30 ... Yes (6.98)
+==> Found dependencies: ExtUtils::Depends, B::Hooks::OP::Check
+Searching ExtUtils::Depends on cpanmetadb ...
+--> Working on ExtUtils::Depends
+Fetching http://www.cpan.org/authors/id/X/XA/XAOC/ExtUtils-Depends-0.401.tar.gz
+-> OK
+Unpacking ExtUtils-Depends-0.401.tar.gz
+Entering ExtUtils-Depends-0.401
+Checking configure dependencies from META.json
+Checking if you have IO::File 0 ... Yes (1.16)
+Checking if you have File::Spec 0 ... Yes (3.47)
+Checking if you have Data::Dumper 0 ... Yes (2.151)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring ExtUtils-Depends-0.401
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for ExtUtils::Depends
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have IO::File 0 ... Yes (1.16)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have Data::Dumper 0 ... Yes (2.151)
+Checking if you have File::Spec 0 ... Yes (3.47)
+Building ExtUtils-Depends-0.401
+cp lib/ExtUtils/Depends.pm blib/lib/ExtUtils/Depends.pm
+Manifying blib/man3/ExtUtils::Depends.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/ExtUtils/Depends.pm
+Installing /home/isucon/.local/perl/man/man3/ExtUtils::Depends.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed ExtUtils-Depends-0.401
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/ExtUtils-Depends-0.401/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/ExtUtils-Depends-0.401/install.json
+Searching B::Hooks::OP::Check on cpanmetadb ...
+--> Working on B::Hooks::OP::Check
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/B-Hooks-OP-Check-0.19.tar.gz
+-> OK
+Unpacking B-Hooks-OP-Check-0.19.tar.gz
+Entering B-Hooks-OP-Check-0.19
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.98)
+Checking if you have ExtUtils::Depends 0.302 ... Yes (0.401)
+Configuring B-Hooks-OP-Check-0.19
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for B::Hooks::OP::Check
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::Depends 0.302 ... Yes (0.401)
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.98)
+Checking if you have Test::More 0 ... Yes (1.001002)
+Checking if you have parent 0 ... Yes (0.228)
+Building B-Hooks-OP-Check-0.19
+cp build/IFiles.pm blib/arch/B/Hooks/OP/Check/Install/Files.pm
+cp hook_op_check.h blib/arch/B/Hooks/OP/Check/Install/hook_op_check.h
+cp lib/B/Hooks/OP/Check.pm blib/lib/B/Hooks/OP/Check.pm
+Running Mkbootstrap for B::Hooks::OP::Check ()
+chmod 644 Check.bs
+/home/isucon/.local/perl/bin/perl "-Iinc" /home/isucon/.local/perl/lib/5.20.0/ExtUtils/xsubpp  -typemap /home/isucon/.local/perl/lib/5.20.0/ExtUtils/typemap  Check.xs > Check.xsc && mv Check.xsc Check.c
+cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.19\" -DXS_VERSION=\"0.19\" -fPIC "-I/home/isucon/.local/perl/lib/5.20.0/x86_64-linux/CORE"   Check.c
+rm -f blib/arch/auto/B/Hooks/OP/Check/Check.so
+cc  -shared -O2 -g -L/usr/local/lib -fstack-protector Check.o  -o blib/arch/auto/B/Hooks/OP/Check/Check.so 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/B/Hooks/OP/Check/Check.so
+/home/isucon/.local/perl/bin/perl "-Iinc" -MExtUtils::Command::MM -e 'cp_nonempty' -- Check.bs blib/arch/auto/B/Hooks/OP/Check/Check.bs 644
+Manifying blib/man3/B::Hooks::OP::Check.3
+Running Mkbootstrap for B::Hooks::OP::Check ()
+chmod 644 Check.bs
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/B/Hooks/OP/Check/Install/hook_op_check.h
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/B/Hooks/OP/Check/Install/Files.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/auto/B/Hooks/OP/Check/Check.so
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/B/Hooks/OP/Check.pm
+Installing /home/isucon/.local/perl/man/man3/B::Hooks::OP::Check.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed B-Hooks-OP-Check-0.19
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/B-Hooks-OP-Check-0.19/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/B-Hooks-OP-Check-0.19/install.json
+Configuring multidimensional-0.011
+Running Makefile.PL
+Warning: prerequisite Lexical::SealRequireHints 0.005 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for multidimensional
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Lexical::SealRequireHints 0.005 ... No
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have B::Hooks::OP::Check 0.19 ... Yes (0.19)
+Checking if you have Test::More 0.88 ... Yes (1.001002)
+Checking if you have XSLoader 0 ... Yes (0.17)
+==> Found dependencies: Lexical::SealRequireHints
+Searching Lexical::SealRequireHints on cpanmetadb ...
+--> Working on Lexical::SealRequireHints
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Lexical-SealRequireHints-0.007.tar.gz
+-> OK
+Unpacking Lexical-SealRequireHints-0.007.tar.gz
+Entering Lexical-SealRequireHints-0.007
+Checking configure dependencies from META.json
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have Module::Build 0 ... Yes (0.4210)
+Configuring Lexical-SealRequireHints-0.007
+Running Build.PL
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Lexical-SealRequireHints' version '0.007'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have Test::More 0 ... Yes (1.001002)
+Checking if you have Module::Build 0 ... Yes (0.4210)
+Building Lexical-SealRequireHints-0.007
+Building Lexical-SealRequireHints
+cc -I/home/isucon/.local/perl/lib/5.20.0/x86_64-linux/CORE -DXS_VERSION="0.007" -DVERSION="0.007" -fPIC -c -fwrapv -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g -o lib/Lexical/SealRequireHints.o lib/Lexical/SealRequireHints.c
+ExtUtils::Mkbootstrap::Mkbootstrap('blib/arch/auto/Lexical/SealRequireHints/SealRequireHints.bs')
+cc -shared -O2 -g -L/usr/local/lib -fstack-protector -o blib/arch/auto/Lexical/SealRequireHints/SealRequireHints.so lib/Lexical/SealRequireHints.o
+Building Lexical-SealRequireHints
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/auto/Lexical/SealRequireHints/SealRequireHints.bs
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/auto/Lexical/SealRequireHints/SealRequireHints.so
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/Lexical/SealRequireHints.pm
+Installing /home/isucon/.local/perl/man/man3/Lexical::SealRequireHints.3
+-> OK
+Successfully installed Lexical-SealRequireHints-0.007
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Lexical-SealRequireHints-0.007/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Lexical-SealRequireHints-0.007/install.json
+Building multidimensional-0.011
+cp lib/multidimensional.pm blib/lib/multidimensional.pm
+Running Mkbootstrap for multidimensional ()
+chmod 644 multidimensional.bs
+/home/isucon/.local/perl/bin/perl /home/isucon/.local/perl/lib/5.20.0/ExtUtils/xsubpp  -typemap /home/isucon/.local/perl/lib/5.20.0/ExtUtils/typemap  multidimensional.xs > multidimensional.xsc && mv multidimensional.xsc multidimensional.c
+cc -c  -I/home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/B/Hooks/OP/Check/Install -fwrapv -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.011\" -DXS_VERSION=\"0.011\" -fPIC "-I/home/isucon/.local/perl/lib/5.20.0/x86_64-linux/CORE"   multidimensional.c
+rm -f blib/arch/auto/multidimensional/multidimensional.so
+cc  -shared -O2 -g -L/usr/local/lib -fstack-protector multidimensional.o  -o blib/arch/auto/multidimensional/multidimensional.so 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/multidimensional/multidimensional.so
+/home/isucon/.local/perl/bin/perl -MExtUtils::Command::MM -e 'cp_nonempty' -- multidimensional.bs blib/arch/auto/multidimensional/multidimensional.bs 644
+Manifying blib/man3/multidimensional.3
+Running Mkbootstrap for multidimensional ()
+chmod 644 multidimensional.bs
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/auto/multidimensional/multidimensional.so
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/multidimensional.pm
+Installing /home/isucon/.local/perl/man/man3/multidimensional.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed multidimensional-0.011
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/multidimensional-0.011/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/multidimensional-0.011/install.json
+Searching bareword::filehandles on cpanmetadb ...
+--> Working on bareword::filehandles
+Fetching http://www.cpan.org/authors/id/I/IL/ILMARI/bareword-filehandles-0.003.tar.gz
+-> OK
+Unpacking bareword-filehandles-0.003.tar.gz
+Entering bareword-filehandles-0.003
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::Depends 0 ... Yes (0.401)
+Checking if you have ExtUtils::MakeMaker 6.31 ... Yes (6.98)
+Checking if you have B::Hooks::OP::Check 0 ... Yes (0.19)
+Configuring bareword-filehandles-0.003
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for bareword::filehandles
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Lexical::SealRequireHints 0 ... Yes (0.007)
+Checking if you have B::Hooks::OP::Check 0 ... Yes (0.19)
+Checking if you have XSLoader 0 ... Yes (0.17)
+Checking if you have Test::More 0.88 ... Yes (1.001002)
+Building bareword-filehandles-0.003
+cp lib/bareword/filehandles.pm blib/lib/bareword/filehandles.pm
+Running Mkbootstrap for bareword::filehandles ()
+chmod 644 filehandles.bs
+/home/isucon/.local/perl/bin/perl /home/isucon/.local/perl/lib/5.20.0/ExtUtils/xsubpp  -typemap /home/isucon/.local/perl/lib/5.20.0/ExtUtils/typemap  filehandles.xs > filehandles.xsc && mv filehandles.xsc filehandles.c
+cc -c  -I/home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/B/Hooks/OP/Check/Install -fwrapv -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.003\" -DXS_VERSION=\"0.003\" -fPIC "-I/home/isucon/.local/perl/lib/5.20.0/x86_64-linux/CORE"   filehandles.c
+rm -f blib/arch/auto/bareword/filehandles/filehandles.so
+cc  -shared -O2 -g -L/usr/local/lib -fstack-protector filehandles.o  -o blib/arch/auto/bareword/filehandles/filehandles.so 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/bareword/filehandles/filehandles.so
+/home/isucon/.local/perl/bin/perl -MExtUtils::Command::MM -e 'cp_nonempty' -- filehandles.bs blib/arch/auto/bareword/filehandles/filehandles.bs 644
+Manifying blib/man3/bareword::filehandles.3
+Running Mkbootstrap for bareword::filehandles ()
+chmod 644 filehandles.bs
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/auto/bareword/filehandles/filehandles.so
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/bareword/filehandles.pm
+Installing /home/isucon/.local/perl/man/man3/bareword::filehandles.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed bareword-filehandles-0.003
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/bareword-filehandles-0.003/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/bareword-filehandles-0.003/install.json
+Searching indirect on cpanmetadb ...
+--> Working on indirect
+Fetching http://www.cpan.org/authors/id/V/VP/VPIT/indirect-0.32.tar.gz
+-> OK
+Unpacking indirect-0.32.tar.gz
+Entering indirect-0.32
+Checking configure dependencies from META.json
+Checking if you have Config 0 ... Yes (5.020000)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring indirect-0.32
+Running Makefile.PL
+Checking if this is gcc 3.4 on Windows trying to link against an import library... no
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for indirect
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Carp 0 ... Yes (1.3301)
+Checking if you have XSLoader 0 ... Yes (0.17)
+Checking if you have Test::More 0 ... Yes (1.001002)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have Config 0 ... Yes (5.020000)
+Building indirect-0.32
+cp lib/indirect.pm blib/lib/indirect.pm
+Running Mkbootstrap for indirect ()
+chmod 644 indirect.bs
+/home/isucon/.local/perl/bin/perl /home/isucon/.local/perl/lib/5.20.0/ExtUtils/xsubpp  -typemap /home/isucon/.local/perl/lib/5.20.0/ExtUtils/typemap  indirect.xs > indirect.xsc && mv indirect.xsc indirect.c
+cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.32\" -DXS_VERSION=\"0.32\" -fPIC "-I/home/isucon/.local/perl/lib/5.20.0/x86_64-linux/CORE"   indirect.c
+rm -f blib/arch/auto/indirect/indirect.so
+cc  -shared -O2 -g -L/usr/local/lib -fstack-protector indirect.o  -o blib/arch/auto/indirect/indirect.so 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/indirect/indirect.so
+/home/isucon/.local/perl/bin/perl -MExtUtils::Command::MM -e 'cp_nonempty' -- indirect.bs blib/arch/auto/indirect/indirect.bs 644
+Manifying blib/man3/indirect.3
+Running Mkbootstrap for indirect ()
+chmod 644 indirect.bs
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/auto/indirect/indirect.so
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/indirect.pm
+Installing /home/isucon/.local/perl/man/man3/indirect.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed indirect-0.32
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/indirect-0.32/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/indirect-0.32/install.json
+Building strictures-1.005005
+cp lib/strictures.pm blib/lib/strictures.pm
+Manifying blib/man3/strictures.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/strictures.pm
+Installing /home/isucon/.local/perl/man/man3/strictures.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed strictures-1.005005
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/strictures-1.005005/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/strictures-1.005005/install.json
+Searching Devel::GlobalDestruction on cpanmetadb ...
+--> Working on Devel::GlobalDestruction
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/Devel-GlobalDestruction-0.13.tar.gz
+-> OK
+Unpacking Devel-GlobalDestruction-0.13.tar.gz
+Entering Devel-GlobalDestruction-0.13
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have ExtUtils::CBuilder 0.27 ... Yes (0.280216)
+Configuring Devel-GlobalDestruction-0.13
+Running Makefile.PL
+Warning: prerequisite Sub::Exporter::Progressive 0.001011 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Devel::GlobalDestruction
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Sub::Exporter::Progressive 0.001011 ... No
+==> Found dependencies: Sub::Exporter::Progressive
+Searching Sub::Exporter::Progressive on cpanmetadb ...
+--> Working on Sub::Exporter::Progressive
+Fetching http://www.cpan.org/authors/id/F/FR/FREW/Sub-Exporter-Progressive-0.001011.tar.gz
+-> OK
+Unpacking Sub-Exporter-Progressive-0.001011.tar.gz
+Entering Sub-Exporter-Progressive-0.001011
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring Sub-Exporter-Progressive-0.001011
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Sub::Exporter::Progressive
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0.88 ... Yes (1.001002)
+Building Sub-Exporter-Progressive-0.001011
+cp lib/Sub/Exporter/Progressive.pm blib/lib/Sub/Exporter/Progressive.pm
+Manifying blib/man3/Sub::Exporter::Progressive.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Sub/Exporter/Progressive.pm
+Installing /home/isucon/.local/perl/man/man3/Sub::Exporter::Progressive.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Sub-Exporter-Progressive-0.001011
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Sub-Exporter-Progressive-0.001011/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Sub-Exporter-Progressive-0.001011/install.json
+Building Devel-GlobalDestruction-0.13
+cp lib/Devel/GlobalDestruction.pm blib/lib/Devel/GlobalDestruction.pm
+Manifying blib/man3/Devel::GlobalDestruction.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Devel/GlobalDestruction.pm
+Installing /home/isucon/.local/perl/man/man3/Devel::GlobalDestruction.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Devel-GlobalDestruction-0.13
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Devel-GlobalDestruction-0.13/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Devel-GlobalDestruction-0.13/install.json
+Searching Import::Into on cpanmetadb ...
+--> Working on Import::Into
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/Import-Into-1.002004.tar.gz
+-> OK
+Unpacking Import-Into-1.002004.tar.gz
+Entering Import-Into-1.002004
+Checking configure dependencies from META.json
+Configuring Import-Into-1.002004
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Import::Into
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have Module::Runtime 0 ... Yes (0.014)
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building Import-Into-1.002004
+cp lib/Import/Into.pm blib/lib/Import/Into.pm
+Manifying blib/man3/Import::Into.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Import/Into.pm
+Installing /home/isucon/.local/perl/man/man3/Import::Into.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Import-Into-1.002004
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Import-Into-1.002004/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Import-Into-1.002004/install.json
+Building Moo-1.006000
+cp lib/Moo/HandleMoose/FakeMetaClass.pm blib/lib/Moo/HandleMoose/FakeMetaClass.pm
+cp lib/Moo.pm blib/lib/Moo.pm
+cp lib/Method/Generate/Accessor.pm blib/lib/Method/Generate/Accessor.pm
+cp lib/Moo/Role.pm blib/lib/Moo/Role.pm
+cp lib/oo.pm blib/lib/oo.pm
+cp lib/Moo/Object.pm blib/lib/Moo/Object.pm
+cp lib/Method/Inliner.pm blib/lib/Method/Inliner.pm
+cp lib/Sub/Defer.pm blib/lib/Sub/Defer.pm
+cp lib/Moo/HandleMoose/_TypeMap.pm blib/lib/Moo/HandleMoose/_TypeMap.pm
+cp lib/Moo/HandleMoose.pm blib/lib/Moo/HandleMoose.pm
+cp lib/Moo/_mro.pm blib/lib/Moo/_mro.pm
+cp lib/Moo/sification.pm blib/lib/Moo/sification.pm
+cp lib/Method/Generate/BuildAll.pm blib/lib/Method/Generate/BuildAll.pm
+cp lib/Method/Generate/Constructor.pm blib/lib/Method/Generate/Constructor.pm
+cp lib/Moo/_Utils.pm blib/lib/Moo/_Utils.pm
+cp lib/Method/Generate/DemolishAll.pm blib/lib/Method/Generate/DemolishAll.pm
+cp lib/Sub/Quote.pm blib/lib/Sub/Quote.pm
+Manifying blib/man3/Moo.3
+Manifying blib/man3/Moo::Role.3
+Manifying blib/man3/Sub::Defer.3
+Manifying blib/man3/Sub::Quote.3
+Manifying blib/man3/oo.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/oo.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Moo.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Method/Inliner.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Method/Generate/Accessor.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Method/Generate/BuildAll.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Method/Generate/Constructor.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Method/Generate/DemolishAll.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Moo/_mro.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Moo/Object.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Moo/Role.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Moo/sification.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Moo/_Utils.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Moo/HandleMoose.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Moo/HandleMoose/_TypeMap.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Moo/HandleMoose/FakeMetaClass.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Sub/Defer.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Sub/Quote.pm
+Installing /home/isucon/.local/perl/man/man3/oo.3
+Installing /home/isucon/.local/perl/man/man3/Moo.3
+Installing /home/isucon/.local/perl/man/man3/Sub::Quote.3
+Installing /home/isucon/.local/perl/man/man3/Sub::Defer.3
+Installing /home/isucon/.local/perl/man/man3/Moo::Role.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Moo-1.006000
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Moo-1.006000/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Moo-1.006000/install.json
+Searching Module::CPANfile on cpanmetadb ...
+--> Working on Module::CPANfile
+Fetching http://www.cpan.org/authors/id/M/MI/MIYAGAWA/Module-CPANfile-1.1000.tar.gz
+-> OK
+Unpacking Module-CPANfile-1.1000.tar.gz
+Entering Module-CPANfile-1.1000
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring Module-CPANfile-1.1000
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Module::CPANfile
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have parent 0 ... Yes (0.228)
+Checking if you have CPAN::Meta::Prereqs 2.12091 ... Yes (2.142060)
+Checking if you have CPAN::Meta 2.12091 ... Yes (2.142060)
+Building Module-CPANfile-1.1000
+cp lib/Module/CPANfile/Prereqs.pm blib/lib/Module/CPANfile/Prereqs.pm
+cp lib/Module/CPANfile/Prereq.pm blib/lib/Module/CPANfile/Prereq.pm
+cp lib/Module/CPANfile/Environment.pm blib/lib/Module/CPANfile/Environment.pm
+cp lib/cpanfile-faq.pod blib/lib/cpanfile-faq.pod
+cp lib/Module/CPANfile.pm blib/lib/Module/CPANfile.pm
+cp lib/Module/CPANfile/Requirement.pm blib/lib/Module/CPANfile/Requirement.pm
+cp lib/cpanfile.pod blib/lib/cpanfile.pod
+cp script/cpanfile-dump blib/script/cpanfile-dump
+/home/isucon/.local/perl/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/cpanfile-dump
+cp script/mymeta-cpanfile blib/script/mymeta-cpanfile
+/home/isucon/.local/perl/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/mymeta-cpanfile
+Manifying blib/man1/cpanfile-dump.1
+Manifying blib/man1/mymeta-cpanfile.1
+Manifying blib/man3/Module::CPANfile.3
+Manifying blib/man3/cpanfile-faq.3
+Manifying blib/man3/cpanfile.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/cpanfile.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/cpanfile-faq.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/CPANfile.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/CPANfile/Prereqs.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/CPANfile/Requirement.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/CPANfile/Prereq.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Module/CPANfile/Environment.pm
+Installing /home/isucon/.local/perl/man/man1/cpanfile-dump.1
+Installing /home/isucon/.local/perl/man/man1/mymeta-cpanfile.1
+Installing /home/isucon/.local/perl/man/man3/cpanfile.3
+Installing /home/isucon/.local/perl/man/man3/Module::CPANfile.3
+Installing /home/isucon/.local/perl/man/man3/cpanfile-faq.3
+Installing /home/isucon/.local/perl/bin/mymeta-cpanfile
+Installing /home/isucon/.local/perl/bin/cpanfile-dump
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Module-CPANfile-1.1000
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Module-CPANfile-1.1000/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Module-CPANfile-1.1000/install.json
+Searching File::pushd on cpanmetadb ...
+--> Working on File::pushd
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/File-pushd-1.009.tar.gz
+-> OK
+Unpacking File-pushd-1.009.tar.gz
+Entering File-pushd-1.009
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.17 ... Yes (6.98)
+Configuring File-pushd-1.009
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for File::pushd
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have File::Path 0 ... Yes (2.09)
+Checking if you have Cwd 0 ... Yes (3.47)
+Checking if you have File::Spec 0 ... Yes (3.47)
+Checking if you have Exporter 0 ... Yes (5.70)
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have Carp 0 ... Yes (1.3301)
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have overload 0 ... Yes (1.22)
+Checking if you have File::Temp 0 ... Yes (0.2304)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building File-pushd-1.009
+cp lib/File/pushd.pm blib/lib/File/pushd.pm
+Manifying blib/man3/File::pushd.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/File/pushd.pm
+Installing /home/isucon/.local/perl/man/man3/File::pushd.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed File-pushd-1.009
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/File-pushd-1.009/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/File-pushd-1.009/install.json
+Searching Path::Tiny on cpanmetadb ...
+--> Working on Path::Tiny
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.057.tar.gz
+-> OK
+Unpacking Path-Tiny-0.057.tar.gz
+Entering Path-Tiny-0.057
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.17 ... Yes (6.98)
+Configuring Path-Tiny-0.057
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Path::Tiny
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Fcntl 0 ... Yes (1.11)
+Checking if you have Digest 1.03 ... Yes (1.17)
+Checking if you have Exporter 5.57 ... Yes (5.70)
+Checking if you have Carp 0 ... Yes (1.3301)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Checking if you have File::Path 2.07 ... Yes (2.09)
+Checking if you have File::stat 0 ... Yes (1.07)
+Checking if you have if 0 ... Yes (0.0603)
+Checking if you have File::Spec 3.40 ... Yes (3.47)
+Checking if you have Cwd 0 ... Yes (3.47)
+Checking if you have warnings 0 ... Yes (1.23)
+Checking if you have overload 0 ... Yes (1.22)
+Checking if you have Digest::SHA 5.45 ... Yes (5.88)
+Checking if you have strict 0 ... Yes (1.08)
+Checking if you have File::Copy 0 ... Yes (2.29)
+Checking if you have constant 0 ... Yes (1.31)
+Checking if you have File::Temp 0.19 ... Yes (0.2304)
+Building Path-Tiny-0.057
+cp lib/Path/Tiny.pm blib/lib/Path/Tiny.pm
+Manifying blib/man3/Path::Tiny.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Path/Tiny.pm
+Installing /home/isucon/.local/perl/man/man3/Path::Tiny.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Path-Tiny-0.057
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Path-Tiny-0.057/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Path-Tiny-0.057/install.json
+Building Carton-v1.0.12
+Building Carton
+Building Carton
+Installing /home/isucon/.local/perl/man/man1/carton.1
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/CPANfile.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/CLI.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Dist.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Index.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Packer.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Mirror.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Util.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Snapshot.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Builder.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Error.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Package.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Dependency.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Environment.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Tree.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Dist/Core.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Snapshot/Parser.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Snapshot/Emitter.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/Exec.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/Tree.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/List.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/Update.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/Upgrading.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/Version.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/Show.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/Check.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/Install.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/Bundle.pod
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Carton/Doc/FAQ.pod
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::Show.3
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::Check.3
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::Version.3
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::Bundle.3
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::Update.3
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::Install.3
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::List.3
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::Tree.3
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::Upgrading.3
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::Exec.3
+Installing /home/isucon/.local/perl/man/man3/Carton::Doc::FAQ.3
+Installing /home/isucon/.local/perl/man/man3/Carton.3
+Installing /home/isucon/.local/perl/bin/carton
+-> OK
+Successfully installed Carton-v1.0.12
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Carton-v1.0.12/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Carton-v1.0.12/install.json
+Searching Server::Starter on cpanmetadb ...
+--> Working on Server::Starter
+Fetching http://www.cpan.org/authors/id/K/KA/KAZUHO/Server-Starter-0.17.tar.gz
+-> OK
+Unpacking Server-Starter-0.17.tar.gz
+Entering Server-Starter-0.17
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.98)
+Configuring Server-Starter-0.17
+Running Makefile.PL
+*** Module::AutoInstall version 1.03
+*** Checking for Perl dependencies...
+*** Since we're running under CPAN, I'll just let it take care
+    of the dependency's installation later.
+[Core Features]
+- Test::TCP       ...missing. (would need 2.00)
+- Getopt::Long    ...loaded. (2.42)
+- List::MoreUtils ...missing.
+- Proc::Wait3     ...missing.
+- Scope::Guard    ...missing.
+*** Module::AutoInstall configuration finished.
+Warning: prerequisite List::MoreUtils 0 not found.
+Warning: prerequisite Proc::Wait3 0 not found.
+Warning: prerequisite Scope::Guard 0 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Server::Starter
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Proc::Wait3 0 ... No
+Checking if you have Getopt::Long 0 ... Yes (2.42)
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.98)
+Checking if you have List::MoreUtils 0 ... No
+Checking if you have Scope::Guard 0 ... No
+Checking if you have Test::TCP 2.00 ... No
+==> Found dependencies: Proc::Wait3, List::MoreUtils, Scope::Guard, Test::TCP
+Searching Proc::Wait3 on cpanmetadb ...
+--> Working on Proc::Wait3
+Fetching http://www.cpan.org/authors/id/C/CT/CTILMES/Proc-Wait3-0.04.tar.gz
+-> OK
+Unpacking Proc-Wait3-0.04.tar.gz
+Entering Proc-Wait3-0.04
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring Proc-Wait3-0.04
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Proc::Wait3
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Building Proc-Wait3-0.04
+cp Wait3.pm blib/lib/Proc/Wait3.pm
+Running Mkbootstrap for Proc::Wait3 ()
+chmod 644 Wait3.bs
+/home/isucon/.local/perl/bin/perl /home/isucon/.local/perl/lib/5.20.0/ExtUtils/xsubpp  -typemap /home/isucon/.local/perl/lib/5.20.0/ExtUtils/typemap  Wait3.xs > Wait3.xsc && mv Wait3.xsc Wait3.c
+cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.04\" -DXS_VERSION=\"0.04\" -fPIC "-I/home/isucon/.local/perl/lib/5.20.0/x86_64-linux/CORE"   Wait3.c
+rm -f blib/arch/auto/Proc/Wait3/Wait3.so
+cc  -shared -O2 -g -L/usr/local/lib -fstack-protector Wait3.o  -o blib/arch/auto/Proc/Wait3/Wait3.so 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/Proc/Wait3/Wait3.so
+/home/isucon/.local/perl/bin/perl -MExtUtils::Command::MM -e 'cp_nonempty' -- Wait3.bs blib/arch/auto/Proc/Wait3/Wait3.bs 644
+Manifying blib/man3/Proc::Wait3.3
+Running Mkbootstrap for Proc::Wait3 ()
+chmod 644 Wait3.bs
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/auto/Proc/Wait3/Wait3.so
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/Proc/Wait3.pm
+Installing /home/isucon/.local/perl/man/man3/Proc::Wait3.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Proc-Wait3-0.04
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Proc-Wait3-0.04/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Proc-Wait3-0.04/install.json
+Searching List::MoreUtils on cpanmetadb ...
+--> Working on List::MoreUtils
+Fetching http://www.cpan.org/authors/id/A/AD/ADAMK/List-MoreUtils-0.33.tar.gz
+-> OK
+Unpacking List-MoreUtils-0.33.tar.gz
+Entering List-MoreUtils-0.33
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.52 ... Yes (6.98)
+Checking if you have ExtUtils::CBuilder 0.27 ... Yes (0.280216)
+Configuring List-MoreUtils-0.33
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for List::MoreUtils
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0.82 ... Yes (1.001002)
+Building List-MoreUtils-0.33
+cp lib/List/MoreUtils.pm blib/lib/List/MoreUtils.pm
+Running Mkbootstrap for List::MoreUtils ()
+chmod 644 MoreUtils.bs
+/home/isucon/.local/perl/bin/perl /home/isucon/.local/perl/lib/5.20.0/ExtUtils/xsubpp  -typemap /home/isucon/.local/perl/lib/5.20.0/ExtUtils/typemap  MoreUtils.xs > MoreUtils.xsc && mv MoreUtils.xsc MoreUtils.c
+cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.33\" -DXS_VERSION=\"0.33\" -fPIC "-I/home/isucon/.local/perl/lib/5.20.0/x86_64-linux/CORE"  -DPERL_EXT MoreUtils.c
+rm -f blib/arch/auto/List/MoreUtils/MoreUtils.so
+cc  -shared -O2 -g -L/usr/local/lib -fstack-protector MoreUtils.o  -o blib/arch/auto/List/MoreUtils/MoreUtils.so 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/List/MoreUtils/MoreUtils.so
+/home/isucon/.local/perl/bin/perl -MExtUtils::Command::MM -e 'cp_nonempty' -- MoreUtils.bs blib/arch/auto/List/MoreUtils/MoreUtils.bs 644
+Manifying blib/man3/List::MoreUtils.3
+Running Mkbootstrap for List::MoreUtils ()
+chmod 644 MoreUtils.bs
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/auto/List/MoreUtils/MoreUtils.so
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/List/MoreUtils.pm
+Installing /home/isucon/.local/perl/man/man3/List::MoreUtils.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed List-MoreUtils-0.33
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/List-MoreUtils-0.33/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/List-MoreUtils-0.33/install.json
+Searching Scope::Guard on cpanmetadb ...
+--> Working on Scope::Guard
+Fetching http://www.cpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.20.tar.gz
+-> OK
+Unpacking Scope-Guard-0.20.tar.gz
+Entering Scope-Guard-0.20
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.98)
+Configuring Scope-Guard-0.20
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Scope::Guard
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0 ... Yes (1.001002)
+Building Scope-Guard-0.20
+cp lib/Scope/Guard.pm blib/lib/Scope/Guard.pm
+Manifying blib/man3/Scope::Guard.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Scope/Guard.pm
+Installing /home/isucon/.local/perl/man/man3/Scope::Guard.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Scope-Guard-0.20
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Scope-Guard-0.20/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Scope-Guard-0.20/install.json
+Searching Test::TCP on cpanmetadb ...
+--> Working on Test::TCP
+Fetching http://www.cpan.org/authors/id/T/TO/TOKUHIROM/Test-TCP-2.06.tar.gz
+-> OK
+Unpacking Test-TCP-2.06.tar.gz
+Entering Test-TCP-2.06
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.64 ... Yes (6.98)
+Configuring Test-TCP-2.06
+Running Makefile.PL
+Warning: prerequisite Test::SharedFork 0.19 not found.
+cp META.json MYMETA.json
+cp META.yml MYMETA.yml
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::TCP
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Time::HiRes 0 ... Yes (1.9726)
+Checking if you have Test::More 0 ... Yes (1.001002)
+Checking if you have IO::Socket::INET 0 ... Yes (1.35)
+Checking if you have Test::SharedFork 0.19 ... No
+==> Found dependencies: Test::SharedFork
+Searching Test::SharedFork on cpanmetadb ...
+--> Working on Test::SharedFork
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test-SharedFork-0.29.tar.gz
+-> OK
+Unpacking Test-SharedFork-0.29.tar.gz
+Entering Test-SharedFork-0.29
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.64 ... Yes (6.98)
+Configuring Test-SharedFork-0.29
+Running Makefile.PL
+cp META.json MYMETA.json
+cp META.yml MYMETA.yml
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::SharedFork
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::Builder::Module 0 ... Yes (1.001002)
+Checking if you have Test::More 0.88 ... Yes (1.001002)
+Checking if you have File::Temp 0 ... Yes (0.2304)
+Checking if you have Test::Builder 0.32 ... Yes (1.001002)
+Building Test-SharedFork-0.29
+cp lib/Test/SharedFork.pm blib/lib/Test/SharedFork.pm
+cp lib/Test/SharedFork/Store.pm blib/lib/Test/SharedFork/Store.pm
+cp lib/Test/SharedFork/Array.pm blib/lib/Test/SharedFork/Array.pm
+cp lib/Test/SharedFork/Scalar.pm blib/lib/Test/SharedFork/Scalar.pm
+Manifying blib/man3/Test::SharedFork.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Test/SharedFork.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Test/SharedFork/Array.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Test/SharedFork/Store.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Test/SharedFork/Scalar.pm
+Installing /home/isucon/.local/perl/man/man3/Test::SharedFork.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Test-SharedFork-0.29
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Test-SharedFork-0.29/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Test-SharedFork-0.29/install.json
+Building Test-TCP-2.06
+cp lib/Net/EmptyPort.pm blib/lib/Net/EmptyPort.pm
+cp lib/Test/TCP/CheckPort.pm blib/lib/Test/TCP/CheckPort.pm
+cp lib/Test/TCP.pm blib/lib/Test/TCP.pm
+Manifying blib/man3/Net::EmptyPort.3
+Manifying blib/man3/Test::TCP.3
+Manifying blib/man3/Test::TCP::CheckPort.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Test/TCP.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Test/TCP/CheckPort.pm
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Net/EmptyPort.pm
+Installing /home/isucon/.local/perl/man/man3/Net::EmptyPort.3
+Installing /home/isucon/.local/perl/man/man3/Test::TCP.3
+Installing /home/isucon/.local/perl/man/man3/Test::TCP::CheckPort.3
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Test-TCP-2.06
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Test-TCP-2.06/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Test-TCP-2.06/install.json
+Building Server-Starter-0.17
+cp lib/Server/Starter.pm blib/lib/Server/Starter.pm
+cp start_server blib/script/start_server
+/home/isucon/.local/perl/bin/perl "-Iinc" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/start_server
+Manifying blib/man1/start_server.1
+Manifying blib/man3/Server::Starter.3
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/Server/Starter.pm
+Installing /home/isucon/.local/perl/man/man1/start_server.1
+Installing /home/isucon/.local/perl/man/man3/Server::Starter.3
+Installing /home/isucon/.local/perl/bin/start_server
+Appending installation info to /home/isucon/.local/perl/lib/5.20.0/x86_64-linux/perllocal.pod
+-> OK
+Successfully installed Server-Starter-0.17
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Server-Starter-0.17/MYMETA.json
+Installing /home/isucon/.local/perl/lib/site_perl/5.20.0/x86_64-linux/.meta/Server-Starter-0.17/install.json
+34 distributions installed

@@ -1,0 +1,27 @@
+{ local $opt = {
+         'testdb' => 'test',
+         'testhost' => '',
+         'embedded' => '',
+         'testport' => '',
+         'nocatchstderr' => 0,
+         'libs' => '-L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -lssl -lcrypto -ldl',
+         'nofoundrows' => 0,
+         'ssl' => 1,
+         'cflags' => '-I/usr/include/mysql55 -g -pipe -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -fno-strict-aliasing -fwrapv -fPIC  -fPIC -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DMY_PTHREAD_FASTMUTEX=1',
+         'testpassword' => '',
+         'testuser' => 'isucon',
+         'ldflags' => '',
+         'mysql_config' => 'mysql_config',
+         'testsocket' => ''
+       };
+$::test_host = $opt->{'testhost'};
+$::test_port = $opt->{'testport'};
+$::test_user = $opt->{'testuser'};
+$::test_socket = $opt->{'testsocket'};
+$::test_password = $opt->{'testpassword'};
+$::test_db = $opt->{'testdb'};
+$::test_dsn = "DBI:mysql:$::test_db";
+$::test_dsn .= ";mysql_socket=$::test_socket" if $::test_socket;
+$::test_dsn .= ":$::test_host" if $::test_host;
+$::test_dsn .= ":$::test_port" if $::test_port;
+} 1;

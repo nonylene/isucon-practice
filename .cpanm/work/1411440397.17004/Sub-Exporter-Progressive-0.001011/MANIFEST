@@ -1,0 +1,16 @@
+Changes
+lib/Sub/Exporter/Progressive.pm
+maint/Makefile.PL.include
+Makefile.PL
+MANIFEST			This list of files
+t/all.t
+t/basic.t
+t/default.t
+t/lib/A/Junk.pm
+t/lib/A/JunkAll.pm
+t/sex.t
+t/tags.t
+t/version-check.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
+README                                   README file (added by Distar)

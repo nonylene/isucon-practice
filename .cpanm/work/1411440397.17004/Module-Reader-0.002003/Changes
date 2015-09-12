@@ -1,0 +1,26 @@
+Revision history for Module-Reader
+
+0.002003 - 2014-08-21
+  - fix dist name in meta files
+
+0.002002 - 2014-08-16
+  - include README in dist
+  - include additional metadata
+
+0.002001 - Nov 23, 2013
+  - fix module NAME in Makefile.PL
+  - minor doc corrections
+  - fix in-memory file test on perl 5.6
+
+0.002000 - Feb 11, 2013
+  - Improve documentation.
+  - Add 'found' option for always loading from specific files.
+
+0.001002 - Feb 2, 2013
+  - fix copyright attribution
+
+0.001001 - Feb 1, 2013
+  - fix version number format
+
+0.001000 - Feb 1, 2013
+  - initial version

@@ -1,0 +1,25 @@
+---
+abstract: 'disables bareword filehandles'
+author:
+  - 'Dagfinn Ilmari Mannsåker <ilmari@ilmari.org>'
+build_requires:
+  Test::More: '0.88'
+configure_requires:
+  B::Hooks::OP::Check: '0'
+  ExtUtils::Depends: '0'
+  ExtUtils::MakeMaker: '6.31'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.101670, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: bareword-filehandles
+requires:
+  B::Hooks::OP::Check: '0'
+  Lexical::SealRequireHints: '0'
+  XSLoader: '0'
+resources:
+  homepage: http://github.com/ilmari/bareword-filehandles/tree
+  repository: git://github.com/ilmari/bareword-filehandles.git
+version: '0.003'

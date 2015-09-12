@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installman1dir' => '',
+         'installsiteman3dir' => '',
+         'installsiteman1dir' => '',
+         'installman3dir' => ''
+       },
+       {
+         'pm_files' => undef,
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'include_dirs' => [],
+         'module_name' => 'HTTP::Headers::Fast',
+         'config_dir' => '_build',
+         'create_readme' => undef,
+         'recurse_into' => [],
+         'extra_linker_flags' => [],
+         'config' => undef,
+         'bundle_inc' => [],
+         'extra_manify_args' => undef,
+         'prefix' => undef,
+         'has_config_data' => undef,
+         'release_status' => 'stable',
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'use_rcfile' => 1,
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440462.19793/HTTP-Headers-Fast-0.17',
+         'extra_compiler_flags' => [],
+         'base_dir' => '/home/isucon/.cpanm/work/1411440462.19793/HTTP-Headers-Fast-0.17',
+         'installdirs' => 'site',
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'meta_add' => {},
+         'verbose' => undef,
+         'build_script' => 'Build',
+         'quiet' => undef,
+         'install_sets' => {},
+         'conflicts' => {},
+         'name' => 'HTTP-Headers-Fast',
+         'debug' => undef,
+         'license' => 'perl',
+         'bundle_inc_preload' => [],
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'destdir' => undef,
+         'pod_files' => undef,
+         'pureperl_only' => 0,
+         'tap_harness_args' => {},
+         '_have_c_compiler' => 1,
+         'dynamic_config' => 0,
+         'recursive_test_files' => 1,
+         'build_bat' => 0,
+         'install_path' => {},
+         'magic_number' => undef,
+         'dist_suffix' => undef,
+         'script_files' => [],
+         'cpan_client' => 'cpan',
+         'dist_author' => undef,
+         'build_requires' => {
+                               'ExtUtils::CBuilder' => 0
+                             },
+         'create_license' => undef,
+         'mymetafile' => 'MYMETA.yml',
+         'sign' => undef,
+         'dist_name' => 'HTTP-Headers-Fast',
+         'metafile2' => 'META.json',
+         'prefix_relpaths' => {},
+         'xs_files' => undef,
+         'auto_configure_requires' => 1,
+         'original_prefix' => {},
+         'mymetafile2' => 'MYMETA.json',
+         'mb_version' => '0.421',
+         'scripts' => undef,
+         'meta_merge' => {},
+         'create_packlist' => 1,
+         'install_base_relpaths' => {},
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'test_files' => 't/',
+         'create_makefile_pl' => undef,
+         'recommends' => {},
+         'test_requires' => {},
+         'dist_abstract' => undef,
+         'c_source' => [],
+         'pollute' => undef,
+         'requires' => {},
+         'allow_pureperl' => 0,
+         'program_name' => undef,
+         'build_class' => 'MyBuilder',
+         'metafile' => 'META.yml',
+         'debugger' => undef,
+         'dist_version' => '0.17',
+         'dist_version_from' => 'lib/HTTP/Headers/Fast.pm',
+         'get_options' => {},
+         'share_dir' => undef,
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1411440462.19793/HTTP-Headers-Fast-0.17/_build/lib',
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ],
+         'autosplit' => undef,
+         'html_css' => '',
+         'allow_mb_mismatch' => 0,
+         'needs_compiler' => 1,
+         'use_tap_harness' => 0,
+         'PL_files' => {},
+         'blib' => 'blib',
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ]
+       }
+     ];
+$x; }

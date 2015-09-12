@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installsiteman1dir' => '',
+         'installsiteman3dir' => '',
+         'installman3dir' => '',
+         'installman1dir' => ''
+       },
+       {
+         'dist_version' => '1.01',
+         'metafile' => 'META.yml',
+         'release_status' => 'stable',
+         'debug' => undef,
+         'tap_harness_args' => {},
+         'create_readme' => undef,
+         'extra_compiler_flags' => [],
+         'test_requires' => {},
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'requires' => {},
+         'name' => 'Router-Boom',
+         'metafile2' => 'META.json',
+         'mymetafile' => 'MYMETA.yml',
+         'quiet' => undef,
+         'PL_files' => {},
+         'auto_configure_requires' => 1,
+         'pureperl_only' => 0,
+         'test_files' => 't/',
+         'allow_mb_mismatch' => 0,
+         'c_source' => [],
+         'verbose' => undef,
+         'pm_files' => undef,
+         'debugger' => undef,
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'dist_suffix' => undef,
+         'get_options' => {},
+         'sign' => undef,
+         'pollute' => undef,
+         'config' => undef,
+         'create_packlist' => 1,
+         'xs_files' => undef,
+         'bundle_inc_preload' => [],
+         'install_sets' => {},
+         'create_license' => undef,
+         'install_base_relpaths' => {},
+         'html_css' => '',
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'original_prefix' => {},
+         'destdir' => undef,
+         'dynamic_config' => 0,
+         'autosplit' => undef,
+         'allow_pureperl' => 0,
+         'config_dir' => '_build',
+         'bundle_inc' => [],
+         'license' => 'perl',
+         'needs_compiler' => 1,
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'mb_version' => '0.421',
+         'dist_version_from' => 'lib/Router/Boom.pm',
+         'build_script' => 'Build',
+         'meta_merge' => {},
+         'dist_name' => 'Router-Boom',
+         'program_name' => undef,
+         'recommends' => {},
+         'conflicts' => {},
+         'build_bat' => 0,
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'base_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Router-Boom-1.01',
+         'prefix' => undef,
+         'use_rcfile' => 1,
+         'scripts' => undef,
+         'include_dirs' => [],
+         'extra_linker_flags' => [],
+         'cpan_client' => 'cpan',
+         'magic_number' => undef,
+         'script_files' => [],
+         'dist_author' => undef,
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Router-Boom-1.01',
+         'recursive_test_files' => 1,
+         'use_tap_harness' => 0,
+         '_have_c_compiler' => 1,
+         'installdirs' => 'site',
+         'has_config_data' => undef,
+         'share_dir' => undef,
+         'blib' => 'blib',
+         'install_path' => {},
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1411440462.19793/Router-Boom-1.01/_build/lib',
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ],
+         'module_name' => 'Router::Boom',
+         'mymetafile2' => 'MYMETA.json',
+         'dist_abstract' => undef,
+         'pod_files' => undef,
+         'create_makefile_pl' => undef,
+         'build_requires' => {
+                               'ExtUtils::CBuilder' => 0
+                             },
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'meta_add' => {},
+         'recurse_into' => [],
+         'prefix_relpaths' => {},
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'extra_manify_args' => undef,
+         'build_class' => 'MyBuilder'
+       }
+     ];
+$x; }

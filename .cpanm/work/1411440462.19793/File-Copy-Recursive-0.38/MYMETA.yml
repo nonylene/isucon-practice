@@ -1,0 +1,21 @@
+---
+abstract: unknown
+author:
+  - unknown
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.30, CPAN::Meta::Converter version 2.142060'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: File-Copy-Recursive
+requires:
+  File::Copy: '0'
+  File::Spec: '0'
+version: '0.38'
+x_installdirs: site
+x_version_from: Recursive.pm

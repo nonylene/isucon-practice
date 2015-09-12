@@ -1,0 +1,38 @@
+Revision history for Perl extension WWW-Form-UrlEncoded-XS
+
+0.19 2014-04-30T03:05:15Z
+
+   - add test about \xE5. it must becom %E5 with build_urlencoded
+
+0.18 2014-02-26T02:51:53Z
+
+    - bugfix around memory reallocation
+
+0.17 2014-02-24T13:44:11Z
+
+    - requires 5.008001
+
+0.16 2014-02-24T08:05:20Z
+
+    - add parse_urlencoded_arrayref
+
+0.15 2014-02-21T08:39:34Z
+
+    - optimze around memory alloc
+
+0.14 2014-02-21T04:11:13Z
+
+    - add build_urlencoded_utf8
+
+0.13 2014-02-18T07:56:41Z
+
+    - supports a delimiter parameter
+
+0.12 2014-02-18T03:11:35Z
+
+    - build_urlencoded supports hashref and arrayref arguments
+
+0.10 2014-02-17T06:13:10Z
+
+    - 
+

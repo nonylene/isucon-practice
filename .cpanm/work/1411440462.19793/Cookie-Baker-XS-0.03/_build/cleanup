@@ -1,0 +1,8 @@
+do{ my $x = {
+       'lib/Cookie/Baker/XS.o' => 1,
+       'blib/arch/auto/Cookie/Baker/XS/XS.so' => 1,
+       'blib' => 1,
+       'blib/arch/auto/Cookie/Baker/XS/XS.bs' => 1,
+       'lib/Cookie/Baker/XS.c' => 1
+     };
+$x; }

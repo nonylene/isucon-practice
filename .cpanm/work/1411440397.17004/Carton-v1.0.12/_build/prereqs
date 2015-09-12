@@ -1,0 +1,30 @@
+do{ my $x = {
+       'recommends' => {},
+       'requires' => {
+                       'CPAN::Meta' => '2.120921',
+                       'perl' => 'v5.8.5',
+                       'App::FatPacker' => '0.009018',
+                       'ExtUtils::MakeMaker' => '6.64',
+                       'File::pushd' => 0,
+                       'Exception::Class' => '1.32',
+                       'CPAN::Meta::Requirements' => '2.121',
+                       'Module::CoreList' => 0,
+                       'Moo' => '1.002',
+                       'Module::Reader' => '0.002',
+                       'App::cpanminus' => '1.694',
+                       'Module::CPANfile' => '0.9031',
+                       'Module::Metadata' => '1.000003',
+                       'parent' => '0.223',
+                       'Getopt::Long' => '2.39',
+                       'Path::Tiny' => '0.033',
+                       'JSON' => '2.53',
+                       'Try::Tiny' => '0.09',
+                       'Module::Build' => '0.4004'
+                     },
+       'conflicts' => {},
+       'test_requires' => {},
+       'build_requires' => {
+                             'Module::Build' => '0.3601'
+                           }
+     };
+$x; }

@@ -1,0 +1,29 @@
+---
+abstract: 'disables multidimensional array emulation'
+author:
+  - 'Dagfinn Ilmari Mannsåker <ilmari@ilmari.org>'
+build_requires:
+  Test::More: 0.88
+configure_requires:
+  B::Hooks::OP::Check: 0
+  CPAN::Meta: 2.112580
+  ExtUtils::Depends: 0
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: multidimensional
+requires:
+  B::Hooks::OP::Check: 0.19
+  Lexical::SealRequireHints: 0.005
+  XSLoader: 0
+  perl: 5.008
+  strict: 0
+  warnings: 0
+resources:
+  homepage: https://github.com/ilmari/multidimensional
+  repository: https://github.com/ilmari/multidimensional.git
+version: 0.011

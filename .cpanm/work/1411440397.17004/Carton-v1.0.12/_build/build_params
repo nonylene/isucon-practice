@@ -1,0 +1,148 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {},
+       {
+         'get_options' => {},
+         'prefix' => undef,
+         'create_readme' => undef,
+         'dist_version_from' => undef,
+         'create_makefile_pl' => undef,
+         'debug' => undef,
+         'dist_author' => [
+                            'Tatsuhiko Miyagawa'
+                          ],
+         'install_base_relpaths' => {},
+         'mymetafile' => 'MYMETA.yml',
+         'pm_files' => undef,
+         'meta_merge' => {},
+         'pod_files' => undef,
+         'recursive_test_files' => 1,
+         'dist_version' => 'v1.0.12',
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'extra_manify_args' => undef,
+         'sign' => undef,
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'installdirs' => 'site',
+         'conflicts' => {},
+         'metafile' => 'META.yml',
+         'dist_name' => 'Carton',
+         'PL_files' => undef,
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440397.17004/Carton-v1.0.12',
+         'install_path' => {},
+         'pollute' => undef,
+         'requires' => {
+                         'CPAN::Meta' => '2.120921',
+                         'perl' => 'v5.8.5',
+                         'App::FatPacker' => '0.009018',
+                         'ExtUtils::MakeMaker' => '6.64',
+                         'File::pushd' => 0,
+                         'Exception::Class' => '1.32',
+                         'CPAN::Meta::Requirements' => '2.121',
+                         'Module::CoreList' => 0,
+                         'Moo' => '1.002',
+                         'Module::Reader' => '0.002',
+                         'App::cpanminus' => '1.694',
+                         'Module::CPANfile' => '0.9031',
+                         'Module::Metadata' => '1.000003',
+                         'parent' => '0.223',
+                         'Getopt::Long' => '2.39',
+                         'Path::Tiny' => '0.033',
+                         'JSON' => '2.53',
+                         'Try::Tiny' => '0.09',
+                         'Module::Build' => '0.4004'
+                       },
+         'needs_compiler' => '',
+         'magic_number' => undef,
+         'release_status' => 'stable',
+         'extra_compiler_flags' => [],
+         'install_base' => undef,
+         'dist_abstract' => 'Perl module dependency manager (aka Bundler for Perl)',
+         'auto_configure_requires' => 1,
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'module_name' => 'Carton',
+         'build_bat' => 0,
+         'test_files' => undef,
+         'allow_mb_mismatch' => 0,
+         'allow_pureperl' => 0,
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'recommends' => {},
+         'xs_files' => undef,
+         'debugger' => undef,
+         'mymetafile2' => 'MYMETA.json',
+         'original_prefix' => {},
+         'verbose' => undef,
+         'c_source' => undef,
+         '_added_to_INC' => [],
+         'quiet' => undef,
+         'bundle_inc_preload' => [],
+         'base_dir' => '/home/isucon/.cpanm/work/1411440397.17004/Carton-v1.0.12',
+         'cpan_client' => 'cpan',
+         'config_dir' => '_build',
+         'build_requires' => {
+                               'Module::Build' => '0.3601'
+                             },
+         'extra_linker_flags' => [],
+         'destdir' => undef,
+         'use_rcfile' => 1,
+         'html_css' => '',
+         'bundle_inc' => [],
+         'tap_harness_args' => {},
+         'recurse_into' => [],
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'create_license' => undef,
+         'include_dirs' => [],
+         'metafile2' => 'META.json',
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'create_packlist' => 1,
+         'autosplit' => undef,
+         'test_requires' => {},
+         'build_class' => 'Module::Build',
+         'config' => undef,
+         'license' => 'perl',
+         'scripts' => undef,
+         'pureperl_only' => 0,
+         'dynamic_config' => 1,
+         'program_name' => undef,
+         'mb_version' => '0.421',
+         'blib' => 'blib',
+         'meta_add' => {},
+         'script_files' => [
+                             'script/carton'
+                           ],
+         'build_script' => 'Build',
+         'dist_suffix' => undef,
+         'prefix_relpaths' => {},
+         'install_sets' => {},
+         'use_tap_harness' => 0,
+         'has_config_data' => undef,
+         'configure_requires' => {
+                                   'Module::Build' => '0.3601',
+                                   'version' => '0.77'
+                                 },
+         'share_dir' => undef
+       }
+     ];
+$x; }

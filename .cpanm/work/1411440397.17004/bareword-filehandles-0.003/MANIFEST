@@ -1,0 +1,15 @@
+Changes
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+filehandles.xs
+inc/BarewordFilehandlesMakeMaker.pm
+lib/bareword/filehandles.pm
+ppport.h
+t/basic.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t
+weaver.ini

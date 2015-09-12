@@ -1,0 +1,88 @@
+{
+   "abstract" : "Check the compiler's availability",
+   "author" : [
+      "Tokuhiro Matsuno <tokuhirom AAJKLFJEF@ GMAIL COM>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.11.0, CPAN::Meta::Converter version 2.142060",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Devel-CheckCompiler",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::CBuilder" : "0",
+            "Test::More" : "0.98",
+            "Test::Requires" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Exporter" : "0",
+            "ExtUtils::CBuilder" : "0",
+            "File::Temp" : "0",
+            "parent" : "0",
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "provides" : {
+      "Devel::AssertC99" : {
+         "file" : "lib/Devel/AssertC99.pm"
+      },
+      "Devel::CheckCompiler" : {
+         "file" : "lib/Devel/CheckCompiler.pm",
+         "version" : "0.05"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/Devel-CheckCompiler/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/Devel-CheckCompiler",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/Devel-CheckCompiler.git",
+         "web" : "https://github.com/tokuhirom/Devel-CheckCompiler"
+      }
+   },
+   "version" : "0.05",
+   "x_contributors" : [
+      "Neil Bowers <neil@bowers.com>",
+      "Tokuhiro Matsuno <tokuhirom@gmail.com>",
+      "Syohei YOSHIDA <syohex@gmail.com>"
+   ]
+}

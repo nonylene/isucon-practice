@@ -1,0 +1,8 @@
+do{ my $x = {
+       'blib/arch/auto/WWW/Form/UrlEncoded/XS/XS.bs' => 1,
+       'lib/WWW/Form/UrlEncoded/XS.c' => 1,
+       'lib/WWW/Form/UrlEncoded/XS.o' => 1,
+       'blib' => 1,
+       'blib/arch/auto/WWW/Form/UrlEncoded/XS/XS.so' => 1
+     };
+$x; }

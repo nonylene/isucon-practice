@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export HOME="/home/isucon/.local/php/share/pyrus"
+"/home/isucon/.local/php/bin/php" -dphar.readonly=0 "/home/isucon/.local/php/bin/pyrus.phar" $@

@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installsiteman1dir' => '',
+         'installman3dir' => '',
+         'installsiteman3dir' => '',
+         'installman1dir' => ''
+       },
+       {
+         'create_makefile_pl' => undef,
+         'requires' => {},
+         'test_files' => 't/',
+         'verbose' => undef,
+         'create_license' => undef,
+         'get_options' => {},
+         'release_status' => 'stable',
+         'build_requires' => {
+                               'ExtUtils::CBuilder' => 0
+                             },
+         'bundle_inc_preload' => [],
+         'include_dirs' => [],
+         'dist_abstract' => undef,
+         'base_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Data-Validator-1.07',
+         'dist_version_from' => 'lib/Data/Validator.pm',
+         'extra_manify_args' => undef,
+         'metafile2' => 'META.json',
+         'conflicts' => {},
+         'pm_files' => undef,
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Data-Validator-1.07',
+         'metafile' => 'META.yml',
+         'license' => 'perl',
+         'config' => undef,
+         'extra_linker_flags' => [],
+         'prefix' => undef,
+         'prefix_relpaths' => {},
+         'PL_files' => {},
+         'tap_harness_args' => {},
+         'destdir' => undef,
+         'pollute' => undef,
+         'program_name' => undef,
+         'debugger' => undef,
+         'pod_files' => undef,
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1411440462.19793/Data-Validator-1.07/_build/lib',
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ],
+         'build_bat' => 0,
+         'c_source' => [],
+         'test_requires' => {},
+         'autosplit' => undef,
+         'pureperl_only' => 0,
+         'recursive_test_files' => 1,
+         'recommends' => {},
+         'use_rcfile' => 1,
+         'allow_mb_mismatch' => 0,
+         'has_config_data' => undef,
+         'cpan_client' => 'cpan',
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         '_have_c_compiler' => 1,
+         'module_name' => 'Data::Validator',
+         'xs_files' => undef,
+         'dynamic_config' => 0,
+         'dist_name' => 'Data-Validator',
+         'share_dir' => undef,
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'mb_version' => '0.421',
+         'build_class' => 'MyBuilder',
+         'auto_configure_requires' => 1,
+         'install_base_relpaths' => {},
+         'needs_compiler' => 1,
+         'bundle_inc' => [],
+         'create_packlist' => 1,
+         'installdirs' => 'site',
+         'extra_compiler_flags' => [],
+         'name' => 'Data-Validator',
+         'use_tap_harness' => 0,
+         'magic_number' => undef,
+         'script_files' => [],
+         'allow_pureperl' => 0,
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'recurse_into' => [],
+         'sign' => undef,
+         'html_css' => '',
+         'dist_author' => undef,
+         'quiet' => undef,
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'scripts' => undef,
+         'create_readme' => undef,
+         'dist_version' => '1.07',
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'config_dir' => '_build',
+         'blib' => 'blib',
+         'debug' => undef,
+         'build_script' => 'Build',
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'install_path' => {},
+         'install_sets' => {},
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'meta_merge' => {},
+         'dist_suffix' => undef,
+         'original_prefix' => {},
+         'meta_add' => {},
+         'mymetafile' => 'MYMETA.yml',
+         'mymetafile2' => 'MYMETA.json'
+       }
+     ];
+$x; }

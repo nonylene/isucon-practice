@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installsiteman1dir' => '',
+         'installman3dir' => '',
+         'installsiteman3dir' => '',
+         'installman1dir' => ''
+       },
+       {
+         'use_rcfile' => 1,
+         'create_makefile_pl' => undef,
+         'allow_pureperl' => 0,
+         'create_packlist' => 1,
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'license' => 'perl',
+         'original_prefix' => {},
+         'blib' => 'blib',
+         'program_name' => undef,
+         'debugger' => undef,
+         'quiet' => undef,
+         'dist_author' => undef,
+         'build_class' => 'MyBuilder',
+         'extra_compiler_flags' => [],
+         'prefix' => undef,
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'name' => 'HTTP-Entity-Parser',
+         'release_status' => 'stable',
+         'dist_suffix' => undef,
+         'build_requires' => {
+                               'ExtUtils::CBuilder' => 0
+                             },
+         'build_bat' => 0,
+         'module_name' => 'HTTP::Entity::Parser',
+         'mymetafile2' => 'MYMETA.json',
+         'autosplit' => undef,
+         'cpan_client' => 'cpan',
+         'recommends' => {},
+         'pod_files' => undef,
+         'dist_version' => '0.12',
+         'test_requires' => {},
+         'use_tap_harness' => 0,
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'recurse_into' => [],
+         'sign' => undef,
+         'xs_files' => undef,
+         'needs_compiler' => 1,
+         'PL_files' => {},
+         'tap_harness_args' => {},
+         'pm_files' => undef,
+         'allow_mb_mismatch' => 0,
+         'dist_abstract' => undef,
+         'scripts' => undef,
+         'prefix_relpaths' => {},
+         'bundle_inc_preload' => [],
+         'script_files' => [],
+         'extra_linker_flags' => [],
+         'metafile2' => 'META.json',
+         'get_options' => {},
+         'create_license' => undef,
+         'bundle_inc' => [],
+         'recursive_test_files' => 1,
+         'pureperl_only' => 0,
+         'build_script' => 'Build',
+         'dist_name' => 'HTTP-Entity-Parser',
+         'dynamic_config' => 0,
+         'magic_number' => undef,
+         'meta_merge' => {},
+         'installdirs' => 'site',
+         'destdir' => undef,
+         'meta_add' => {},
+         'extra_manify_args' => undef,
+         'config_dir' => '_build',
+         'share_dir' => undef,
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'auto_configure_requires' => 1,
+         'install_sets' => {},
+         'test_files' => 't/',
+         'has_config_data' => undef,
+         '_have_c_compiler' => 1,
+         'conflicts' => {},
+         'mb_version' => '0.421',
+         'verbose' => undef,
+         'install_path' => {},
+         'create_readme' => undef,
+         'requires' => {},
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440462.19793/HTTP-Entity-Parser-0.12',
+         'dist_version_from' => 'lib/HTTP/Entity/Parser.pm',
+         'base_dir' => '/home/isucon/.cpanm/work/1411440462.19793/HTTP-Entity-Parser-0.12',
+         'include_dirs' => [],
+         'mymetafile' => 'MYMETA.yml',
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'debug' => undef,
+         'html_css' => '',
+         'config' => undef,
+         'c_source' => [],
+         'metafile' => 'META.yml',
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'pollute' => undef,
+         'install_base_relpaths' => {},
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1411440462.19793/HTTP-Entity-Parser-0.12/_build/lib',
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ]
+       }
+     ];
+$x; }

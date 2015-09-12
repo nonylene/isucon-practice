@@ -1,0 +1,56 @@
+Revision history for Perl extension Server::Starter.
+
+0.17
+	- add option: --backlog to change the backlog size (default: SOMAXCONN) (thanks to Yuryu)
+
+0.16
+	- [bugfix] unset the environment variable when a file is removed from the directory specified by --envdir
+
+0.15
+	- added option: --envdir for reloading configuration (thanks to limitusus)
+	- added options: --enable-auto-restart and interval for periodical automatic restarting (thanks to limitusus)
+	- added option: --kill-old-delay for delaying SIGTERM (thanks to limitusus)
+
+0.14
+	- fix regression in 0.13; start_server wo. "--dir" was causing errors
+
+0.13
+	- add option: --dir (thanks to kazeburo)
+
+0.12
+	- bugfix: support for programs with whitespaces (thanks to clkao)
+	- add option: --signal-on-term (thanks to miyagawa)
+
+0.11
+	- remove unix socket file on shutdown
+
+0.10
+	- support for unix sockets with --path option
+
+0.09
+	- added options: --signal-on-hup, --status-file, --restart
+
+0.08
+	- added --pid-file option
+
+0.07  Sat May 08 14:00:00 2010
+	- --port option is now omittable (so daemons _not_ binding to TCP ports (like FCGI servers binding to unix domain sockets) can be hot-deployied using Server::Starter)
+ 
+0.06  Sat Jan 02 10:26:00 2010
+	- bugfix: start_server did not shutdown upon receiving SIGINT while the worker is failing to start up
+
+0.05  Tue Oct 13 20:30:00 2009
+	- use $^X in tests (or tests will fail on hosts using a different installation of perl from one installed to /usr/bin/perl)
+
+0.04  Fri Oct 09 19:25:00 2009
+	- signals received just after spawning worker process were dismissed (thanks to kazeburo for reporting and helping fix the problem)
+
+0.03  Thu Sep 24 20:00:00 2009
+	- require 5.008
+	- require Test::TCP 0.11 to satisfy the dependencies
+
+0.02  Thu Sep 09 17:06:00 2009
+	- add README, Changes
+
+0.01  Thu Sep 09 17:00:00 2009
+	- initial version

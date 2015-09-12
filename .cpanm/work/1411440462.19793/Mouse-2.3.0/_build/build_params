@@ -1,0 +1,154 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installsiteman1dir' => '',
+         'installman1dir' => '',
+         'installsiteman3dir' => '',
+         'installman3dir' => ''
+       },
+       {
+         'create_packlist' => 1,
+         'mymetafile2' => 'MYMETA.json',
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1411440462.19793/Mouse-2.3.0/_build/lib',
+                              '/home/isucon/webapp/perl/local/lib/perl5/x86_64-linux',
+                              '/home/isucon/webapp/perl/local/lib/perl5'
+                            ],
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'needs_compiler' => 1,
+         'recurse_into' => [],
+         'prefix_relpaths' => {},
+         'mb_version' => '0.421',
+         'pod_files' => undef,
+         'orig_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Mouse-2.3.0',
+         'quiet' => undef,
+         'installdirs' => 'site',
+         'dist_suffix' => undef,
+         'meta_merge' => {},
+         'generate_ppport_h' => 'ppport.h',
+         'auto_configure_requires' => 1,
+         'ppport_h_path' => 'ppport.h',
+         'scripts' => undef,
+         'base_dir' => '/home/isucon/.cpanm/work/1411440462.19793/Mouse-2.3.0',
+         'metafile' => 'META.yml',
+         'module_name' => 'Mouse',
+         'get_options' => {},
+         'install_base' => '/home/isucon/webapp/perl/local',
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'test_files' => 't/',
+         'allow_mb_mismatch' => 0,
+         'conflicts' => {
+                          'Any::Moose' => '< 0.10',
+                          'MouseX::NativeTraits' => '< 1.00',
+                          'MouseX::AttributeHelpers' => '< 0.06'
+                        },
+         'extra_linker_flags' => [],
+         'recommends' => {},
+         'bundle_inc' => [],
+         'cpan_client' => 'cpan',
+         'test_requires' => {},
+         'meta_add' => {},
+         'sign' => undef,
+         'name' => 'Mouse',
+         'verbose' => undef,
+         'share_dir' => undef,
+         'dist_version' => 'v2.3.0',
+         'configure_requires' => {
+                                   'Module::Build' => '0.4005',
+                                   'Module::Build::XSUtil' => '0.14'
+                                 },
+         'extra_compiler_flags' => [
+                                     '-Wall',
+                                     '-Wextra',
+                                     '-Wdeclaration-after-statement',
+                                     '-Wc++-compat'
+                                   ],
+         'mymetafile' => 'MYMETA.yml',
+         'extra_manify_args' => undef,
+         'build_script' => 'Build',
+         'destdir' => undef,
+         'blib' => 'blib',
+         'script_files' => [],
+         'tap_harness_args' => {},
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'requires' => {},
+         'dynamic_config' => 0,
+         'generate_xshelper_h' => 'xshelper.h',
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'install_path' => {},
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'c_source' => [
+                         'xs-src'
+                       ],
+         'config_dir' => '_build',
+         'dist_name' => 'Mouse',
+         'debugger' => undef,
+         'has_config_data' => undef,
+         'autosplit' => undef,
+         'allow_pureperl' => 1,
+         'PL_files' => {},
+         'xshelper_h_path' => 'xshelper.h',
+         'use_rcfile' => 1,
+         'program_name' => undef,
+         'build_class' => 'MyBuilder',
+         '_have_c_compiler' => 1,
+         'dist_author' => undef,
+         'use_tap_harness' => 0,
+         'config' => undef,
+         'original_prefix' => {},
+         'debug' => undef,
+         'metafile2' => 'META.json',
+         'bundle_inc_preload' => [],
+         'pollute' => undef,
+         'magic_number' => undef,
+         'prefix' => undef,
+         'dist_abstract' => undef,
+         'create_license' => undef,
+         'include_dirs' => [
+                             '.'
+                           ],
+         'pureperl_only' => 0,
+         'install_base_relpaths' => {},
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'recursive_test_files' => 1,
+         'dist_version_from' => 'lib/Mouse.pm',
+         'install_sets' => {},
+         'html_css' => '',
+         'xs_files' => {
+                         'xs-src/Mouse.xs' => 'lib/Mouse.xs'
+                       },
+         'build_requires' => {
+                               'ExtUtils::CBuilder' => 0
+                             },
+         'pm_files' => undef,
+         'build_bat' => 0,
+         'release_status' => 'stable',
+         'license' => 'perl',
+         'create_readme' => undef,
+         'create_makefile_pl' => undef
+       }
+     ];
+$x; }

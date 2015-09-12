@@ -1,0 +1,21 @@
+/home/isucon/.local/ruby/bin/ruby extconf.rb 
+checking for mmap() in sys/mman.h... yes
+checking for munmap() in sys/mman.h... yes
+checking for mremap() in sys/mman.h... yes
+checking for getpagesize() in unistd.h... yes
+checking for rb_thread_blocking_region()... yes
+checking for rb_thread_io_blocking_region()... yes
+checking for GCC 4+ atomic builtins... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling linux_inet_diag.c
+compiling linux_tcp_info.c
+compiling raindrops.c
+linking shared-object raindrops_ext.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 raindrops_ext.so ./.gem.20140924-20694-194e89v
+installing default raindrops_ext libraries

@@ -1,0 +1,16 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+dist.ini
+inc/MultidimensionalMakeMaker.pm
+lib/multidimensional.pm
+multidimensional.xs
+t/basic.t
+t/lib/MyTest.pm
+t/release-pod-coverage.t
+t/release-pod-syntax.t
+weaver.ini

@@ -1,0 +1,34 @@
+---
+abstract: 'Uniform Resource Identifiers (absolute and relative)'
+author:
+  - 'Gisle Aas <gisle@activestate.com>'
+build_requires:
+  File::Temp: '0'
+  Test: '0'
+  Test::More: '0.96'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.9904, CPAN::Meta::Converter version 2.141520'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: URI
+no_index:
+  directory:
+    - t
+    - inc
+recommends:
+  Business::ISBN: '0'
+requires:
+  Exporter: '5.57'
+  MIME::Base64: '2'
+  parent: '0'
+  perl: '5.008001'
+  utf8: '0'
+resources:
+  MailingList: mailto:libwww@perl.org
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=URI
+  repository: https://github.com/libwww-perl/uri.git
+version: '1.64'
