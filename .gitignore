@@ -3,3 +3,4 @@ vendor/
 *.pid
 .bash_history
 .viminfo
+.lesshst
