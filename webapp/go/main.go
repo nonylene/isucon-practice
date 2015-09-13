@@ -84,16 +84,18 @@ func main() {
 	})
 
 	m.Get("/mypage", func(r render.Render, session sessions.Session) {
-		currentUser := getCurrentUser(session.Get("user_id"))
-
-		if currentUser == nil {
+		if session.Get("user_id") == nil {
 			session.Set("notice", "You must be logged in")
 			r.Redirect("/")
 			return
 		}
 
-		currentUser.getLastLogin()
-		r.HTML(200, "mypage", currentUser)
+        lastLogin, err := getLastLogin(session.Get("user_id"))
+        if err != nil {
+            panic (err)
+        }
+
+		r.HTML(200, "mypage", lastLogin)
 	})
 
 	m.Get("/report", func(r render.Render) {

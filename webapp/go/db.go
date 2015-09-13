@@ -7,6 +7,13 @@ import (
 	"time"
 )
 
+type LastLogin struct {
+	Login     string
+	IP        string
+	CreatedAt time.Time
+}
+
+
 var (
 	ErrBannedIP      = errors.New("Banned IP")
 	ErrLockedUser    = errors.New("Locked user")
@@ -275,4 +282,26 @@ func lockedUsers() []string {
 	}
 
 	return userIds
+}
+
+func getLastLogin(userId interface{}) (*LastLogin, error) {
+	rows, err := db.Query(
+		"SELECT login, ip, created_at FROM login_log WHERE succeeded = 1 AND user_id = ? ORDER BY id DESC LIMIT 2",
+		userId,
+	)
+
+	if err != nil {
+		return nil, err
+	}
+
+	defer rows.Close()
+    lastLogin := &LastLogin{}
+	for rows.Next() {
+		err = rows.Scan(&lastLogin.Login, &lastLogin.IP, &lastLogin.CreatedAt)
+		if err != nil {
+			return nil, err
+		}
+	}
+
+	return lastLogin, nil
 }
