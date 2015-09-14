@@ -111,6 +111,16 @@ func main() {
 		})
 	})
 
+    sigc := make(chan os.Signal, 1)
+    signal.Notify(sigc, os.Interrupt, os.Kill, syscall.SIGTERM)
+    go func(c chan os.Signal){
+        sig := <- c
+        log.Printf("Caught signal %s: shutting down.", sig)
+        l.Close()
+        os.Exit(0)
+    }(sigc)
+
+
     //http.ListenAndServe(":8080", m)
     l,err := net.Listen("unix", "/tmp/go.sock")
     if err != nil {
