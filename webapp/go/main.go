@@ -118,6 +118,13 @@ func main() {
 		})
 	})
 
+    //http.ListenAndServe(":8080", m)
+    l,err := net.Listen("unix", "/tmp/go.sock")
+    if err != nil {
+        panic(err)
+        return
+    }
+
     sigc := make(chan os.Signal, 1)
     signal.Notify(sigc, os.Interrupt, os.Kill, syscall.SIGTERM)
     go func(c chan os.Signal){
@@ -126,14 +133,6 @@ func main() {
         l.Close()
         os.Exit(0)
     }(sigc)
-
-
-    //http.ListenAndServe(":8080", m)
-    l,err := net.Listen("unix", "/tmp/go.sock")
-    if err != nil {
-        panic(err)
-        return
-    }
 
     err = http.Serve(l, m)
     if err != nil {
