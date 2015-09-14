@@ -7,6 +7,13 @@ import (
 	"time"
 )
 
+type User struct {
+	ID           int
+	Login        string
+	PasswordHash string
+	Salt         string
+}
+
 type LastLogin struct {
 	Login     string
 	IP        string
