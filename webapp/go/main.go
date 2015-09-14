@@ -13,6 +13,7 @@ import (
     "log"
     "syscall"
     "os/signal"
+    "io/ioutil"
 
 	"strconv"
 )
@@ -61,8 +62,17 @@ func main() {
 		Layout: "layout",
 	}))
 
-	m.Get("/", func(r render.Render, session sessions.Session) {
-		r.HTML(200, "index", map[string]string{"Flash": getFlash(session, "notice")})
+	m.Get("/", func(req *http.Request, session sessions.Session) string {
+        var path string
+        switch req.URL.Query().Get("f"){
+            case "b": path = "ban"
+            case "l": path = "lock"
+            case "m": path = "must"
+            case "w": path = "wrong"
+            default: path = "nomsg"
+        }
+        s, _ := ioutil.ReadFile("../public/index/" + path + ".html")
+        return string(s)
 	})
 
 	m.Post("/login", func(req *http.Request, r render.Render, session sessions.Session) {
@@ -72,15 +82,14 @@ func main() {
 		if err != nil || user == nil {
 			switch err {
 			case ErrBannedIP:
-				notice = "You're banned."
+				notice = "b"
 			case ErrLockedUser:
-				notice = "This account is locked."
+				notice = "l"
 			default:
-				notice = "Wrong username or password"
+				notice = "w"
 			}
 
-			session.Set("notice", notice)
-			r.Redirect("/")
+			r.Redirect("/?f=" + notice)
 			return
 		}
 
@@ -90,8 +99,7 @@ func main() {
 
 	m.Get("/mypage", func(r render.Render, session sessions.Session) {
 		if session.Get("user_id") == nil {
-			session.Set("notice", "You must be logged in")
-			r.Redirect("/")
+			r.Redirect("/?f=m")
 			return
 		}
 
