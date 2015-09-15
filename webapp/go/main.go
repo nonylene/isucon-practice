@@ -62,7 +62,7 @@ func main() {
 		Layout: "layout",
 	}))
 
-	m.Get("/", func(req *http.Request, session sessions.Session) string {
+	m.Get("/", func(req *http.Request) string {
         var path string
         switch req.URL.Query().Get("f"){
             case "b": path = "ban"
@@ -98,12 +98,14 @@ func main() {
 	})
 
 	m.Get("/mypage", func(r render.Render, session sessions.Session) {
-		if session.Get("user_id") == nil {
+
+        id := session.Get("user_id")
+		if id == nil {
 			r.Redirect("/?f=m")
 			return
 		}
 
-        lastLogin, err := getLastLogin(session.Get("user_id"))
+        lastLogin, err := getLastLogin(id)
         if err != nil {
             panic (err)
         }
