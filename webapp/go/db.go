@@ -72,7 +72,9 @@ func isLockedUser(user *User) (bool, error) {
 func isBannedIP(ip string) (bool, error) {
     var ni sql.NullInt64
     row := db.QueryRow(
+        // ログインログから読み出し
         "SELECT COUNT(1) AS failures FROM login_log WHERE "+
+        // 指定のipかつ、そいつが最後にログインしてからの数
             "ip = ? AND id > IFNULL((select id from login_log where ip = ? AND "+
             "succeeded = 1 ORDER BY id DESC LIMIT 1), 0);",
         ip, ip,
