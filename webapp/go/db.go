@@ -1,10 +1,12 @@
 package main
 
 import (
+    "github.com/garyburd/redigo/redis"
     "database/sql"
     "errors"
     "net/http"
     "time"
+    "strconv"
 )
 
 type User struct {
@@ -46,6 +48,14 @@ func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error 
         time.Now(), userId, login, remoteAddr, succ,
     )
 
+    if succeeded {
+        rd.Send("set", "id:" + strconv.Itoa(user.ID), 0)
+        rd.Send("set", "ip:" + remoteAddr, 0)
+    } else {
+        rd.Send("incr", "id:" + strconv.Itoa(user.ID))
+        rd.Send("incr", "ip:" + remoteAddr)
+    }
+
     return err
 }
 
@@ -54,23 +64,9 @@ func isLockedUser(user *User) (bool, error) {
         return false, nil
     }
 
-    var ni sql.NullInt64
-    row := db.QueryRow(
-        "SELECT COUNT(1) AS failures FROM login_log WHERE "+
-            "user_id = ? AND id > IFNULL((select id from login_log where user_id = ? AND "+
-            "succeeded = 1 ORDER BY id DESC LIMIT 1), 0);",
-        user.ID, user.ID,
-    )
-    err := row.Scan(&ni)
+    count, _ := redis.Int(rd.Do("get", "id:" + strconv.Itoa(user.ID)))
 
-    switch {
-    case err == sql.ErrNoRows:
-        return false, nil
-    case err != nil:
-        return false, err
-    }
-
-    return UserLockThreshold <= int(ni.Int64), nil
+    return UserLockThreshold <= count, nil
 }
 
 func isBannedIP(ip string) (bool, error) {

@@ -7,6 +7,7 @@ import (
     _ "github.com/go-sql-driver/mysql"
     "github.com/martini-contrib/render"
     "github.com/martini-contrib/sessions"
+    "github.com/garyburd/redigo/redis"
     "net"
     "net/http"
     "os"
@@ -19,6 +20,7 @@ import (
 )
 
 var db *sql.DB
+var rd redis.Conn
 var (
     UserLockThreshold int
     IPBanThreshold    int
@@ -37,6 +39,11 @@ func init() {
     var err error
 
     db, err = sql.Open("mysql", dsn)
+    if err != nil {
+        panic(err)
+    }
+
+    rd, err = redis.Dial("tcp", ":6379")
     if err != nil {
         panic(err)
     }
