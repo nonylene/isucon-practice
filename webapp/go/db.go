@@ -70,25 +70,10 @@ func isLockedUser(user *User) (bool, error) {
 }
 
 func isBannedIP(ip string) (bool, error) {
-    var ni sql.NullInt64
-    row := db.QueryRow(
-        // ログインログから読み出し
-        "SELECT COUNT(1) AS failures FROM login_log WHERE "+
-        // 指定のipかつ、そいつが最後にログインしてからの数
-            "ip = ? AND id > IFNULL((select id from login_log where ip = ? AND "+
-            "succeeded = 1 ORDER BY id DESC LIMIT 1), 0);",
-        ip, ip,
-    )
-    err := row.Scan(&ni)
 
-    switch {
-    case err == sql.ErrNoRows:
-        return false, nil
-    case err != nil:
-        return false, err
-    }
+    count, _ := redis.Int(rd.Do("get", "ip:" + ip))
 
-    return IPBanThreshold <= int(ni.Int64), nil
+    return IPBanThreshold <= count, nil
 }
 
 func attemptLogin(req *http.Request) (*User, error) {
