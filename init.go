@@ -7,7 +7,10 @@ import (
     "database/sql"
     "fmt"
     "os"
+    "time"
 )
+
+const timeLayout = "2006-01-02 15:04:05"
 
 func main(){
     dsn := fmt.Sprintf(
@@ -30,21 +33,35 @@ func main(){
     }
 
     rows, _ := db.Query(
-        "select user_id, ip, succeeded from login_log",
+        "select user_id, ip, succeeded, created_at, login  from login_log",
     )
+
 
     for rows.Next() {
         var ip string
         var user_id int
         var succeeded int
+        var created time.Time
+        var login string
 
-        rows.Scan(&user_id, &ip, &succeeded)
+        rows.Scan(&user_id, &ip, &succeeded, &created, login)
+
+        m := map[string]string{
+            "time":  created.Format(timeLayout),
+            "name":   login,
+            "ip":  ip,
+        }
+
+        id := strconv.Itoa(user_id)
 
         if succeeded == 1 {
-            rd.Send("set", "id:" + strconv.Itoa(user_id), 0)
+           rd.Send("rename", "laslog:last:" + id, "laslog:lastnext:" + id )
+           rd.Send("hmset", redis.Args{}.Add("laslog:last:" + id).AddFlat(m)...)
+
+            rd.Send("set", "id:" + id, 0)
             rd.Send("set", "ip:" + ip, 0)
         } else {
-            rd.Send("incr", "id:" + strconv.Itoa(user_id))
+            rd.Send("incr", "id:" + id)
             rd.Send("incr", "ip:" + ip)
         }
     }
