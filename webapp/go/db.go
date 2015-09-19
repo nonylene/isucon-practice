@@ -6,6 +6,8 @@ import (
     "errors"
     "net/http"
     "time"
+//    "fmt"
+//    "crypto/rand"
     "strconv"
 )
 
@@ -19,9 +21,10 @@ type User struct {
 type LastLogin struct {
     Login     string
     IP        string
-    CreatedAt time.Time
+    CreatedAt string
 }
 
+const timeLayout = "2006-01-02 15:04:05"
 
 var (
     ErrBannedIP      = errors.New("Banned IP")
@@ -31,9 +34,42 @@ var (
 )
 
 func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error {
-    succ := 0
+//    succ := "0"
+//    if succeeded {
+//        succ = "1"
+//    }
+
+    idStr := strconv.Itoa(user.ID)
+
+//    b := make([]byte, 8)
+//    rand.Read(b)
+//    key := idStr + ":" + fmt.Sprintf("%x", b)
+
+    timenow := time.Now()
+    m := map[string]string{
+        "time":  timenow.Format(timeLayout),
+//        "id": idStr,
+        "name":   login,
+        "ip":  remoteAddr,
+//        "result":  succ,
+    }
+
+//    rd.Send("hmset", redis.Args{}.Add(key).AddFlat(m)...)
+
     if succeeded {
-        succ = 1
+        rd.Send("rename", "laslog:last:" + idStr, "laslog:lastnext:" + idStr )
+        rd.Send("hmset", redis.Args{}.Add("laslog:last:" + idStr).AddFlat(m)...)
+
+        rd.Send("set", "id:" + idStr, 0)
+        rd.Send("set", "ip:" + remoteAddr, 0)
+    } else {
+        rd.Send("incr", "id:" + idStr)
+        rd.Send("incr", "ip:" + remoteAddr)
+    }
+
+    succa := 0
+    if succeeded {
+        succa = 1
     }
 
     var userId sql.NullInt64
@@ -42,21 +78,13 @@ func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error 
         userId.Valid = true
     }
 
-    _, err := db.Exec(
+    db.Exec(
         "INSERT INTO login_log (`created_at`, `user_id`, `login`, `ip`, `succeeded`) "+
             "VALUES (?,?,?,?,?)",
-        time.Now(), userId, login, remoteAddr, succ,
+        timenow, userId, login, remoteAddr, succa,
     )
 
-    if succeeded {
-        rd.Send("set", "id:" + strconv.Itoa(user.ID), 0)
-        rd.Send("set", "ip:" + remoteAddr, 0)
-    } else {
-        rd.Send("incr", "id:" + strconv.Itoa(user.ID))
-        rd.Send("incr", "ip:" + remoteAddr)
-    }
-
-    return err
+    return nil
 }
 
 func isLockedUser(user *User) (bool, error) {
@@ -275,22 +303,14 @@ func lockedUsers() []string {
 }
 
 func getLastLogin(userId interface{}) (*LastLogin, error) {
-    rows, err := db.Query(
-        "SELECT login, ip, created_at FROM login_log WHERE succeeded = 1 AND user_id = ? ORDER BY id DESC LIMIT 2",
-        userId,
-    )
+    laslog, _ := redis.StringMap(rd.Do("hgetall", "laslog:lastnext:" + userId.(string)))
 
-    if err != nil {
-        return nil, err
-    }
-
-    defer rows.Close()
     lastLogin := &LastLogin{}
-    for rows.Next() {
-        err = rows.Scan(&lastLogin.Login, &lastLogin.IP, &lastLogin.CreatedAt)
-        if err != nil {
-            return nil, err
-        }
+
+    if len(laslog) != 0 {
+        lastLogin.Login = laslog["name"]
+        lastLogin.IP = laslog["ip"]
+        lastLogin.CreatedAt = laslog["time"]
     }
 
     return lastLogin, nil
