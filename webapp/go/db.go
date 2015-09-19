@@ -33,6 +33,9 @@ var (
 )
 
 func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error {
+    rd := pool.Get()
+    defer rd.Close()
+
     idStr := strconv.Itoa(user.ID)
 
     timenow := time.Now()
@@ -57,12 +60,17 @@ func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error 
 }
 
 func isLockedUser(login string) (bool, error) {
+    rd := pool.Get()
+    defer rd.Close()
+
     count, _ := redis.Int(rd.Do("get", "id:" + login))
 
     return UserLockThreshold <= count, nil
 }
 
 func isBannedIP(ip string) (bool, error) {
+    rd := pool.Get()
+    defer rd.Close()
 
     count, _ := redis.Int(rd.Do("get", "ip:" + ip))
 
@@ -135,6 +143,9 @@ func getCurrentUser(userId interface{}) *User {
 }
 
 func bannedIPs() []string {
+    rd := pool.Get()
+    defer rd.Close()
+
     ips := []string{}
 
     iplogs, _ := redis.Strings(rd.Do("keys", "ip:*"))
@@ -150,6 +161,9 @@ func bannedIPs() []string {
 }
 
 func lockedUsers() []string {
+    rd := pool.Get()
+    defer rd.Close()
+
     userIds := []string{}
 
     idlogs, _ := redis.Strings(rd.Do("keys", "id:*"))
@@ -164,6 +178,9 @@ func lockedUsers() []string {
 }
 
 func getLastLogin(userId interface{}) (*LastLogin, error) {
+    rd := pool.Get()
+    defer rd.Close()
+
     laslog, _ := redis.StringMap(rd.Do("hgetall", "laslog:lastnext:" + userId.(string)))
 
     lastLogin := &LastLogin{}
