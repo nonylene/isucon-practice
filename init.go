@@ -33,7 +33,7 @@ func main(){
     }
 
     rows, _ := db.Query(
-        "select user_id, ip, succeeded, created_at, login  from login_log",
+        "select user_id, ip, succeeded, created_at, login  from login_log order by id",
     )
 
 
@@ -44,7 +44,7 @@ func main(){
         var created time.Time
         var login string
 
-        rows.Scan(&user_id, &ip, &succeeded, &created, login)
+        rows.Scan(&user_id, &ip, &succeeded, &created, &login)
 
         m := map[string]string{
             "time":  created.Format(timeLayout),
@@ -58,10 +58,10 @@ func main(){
            rd.Send("rename", "laslog:last:" + id, "laslog:lastnext:" + id )
            rd.Send("hmset", redis.Args{}.Add("laslog:last:" + id).AddFlat(m)...)
 
-            rd.Send("set", "id:" + id, 0)
+            rd.Send("set", "id:" + login, 0)
             rd.Send("set", "ip:" + ip, 0)
         } else {
-            rd.Send("incr", "id:" + id)
+            rd.Send("incr", "id:" + login)
             rd.Send("incr", "ip:" + ip)
         }
     }

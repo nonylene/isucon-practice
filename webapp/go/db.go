@@ -46,18 +46,18 @@ func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error 
         rd.Send("rename", "laslog:last:" + idStr, "laslog:lastnext:" + idStr )
         rd.Send("hmset", redis.Args{}.Add("laslog:last:" + idStr).AddFlat(m)...)
 
-        rd.Send("del", "id:" + idStr)
+        rd.Send("del", "id:" + user.Login)
         rd.Send("del", "ip:" + remoteAddr)
     } else {
-        rd.Send("incr", "id:" + idStr)
+        rd.Send("incr", "id:" + user.Login)
         rd.Send("incr", "ip:" + remoteAddr)
     }
 
     return nil
 }
 
-func isLockedUser(id string) (bool, error) {
-    count, _ := redis.Int(rd.Do("get", "id:" + id))
+func isLockedUser(login string) (bool, error) {
+    count, _ := redis.Int(rd.Do("get", "id:" + login))
 
     return UserLockThreshold <= count, nil
 }
@@ -102,7 +102,7 @@ func attemptLogin(req *http.Request) (*User, error) {
         return nil, ErrBannedIP
     }
 
-    if locked, _ := isLockedUser(strconv.Itoa(user.ID)); locked {
+    if locked, _ := isLockedUser(user.Login); locked {
         return nil, ErrLockedUser
     }
 
@@ -151,23 +151,14 @@ func bannedIPs() []string {
 func lockedUsers() []string {
     userIds := []string{}
 
-    bannedIds := []string{}
-
     idlogs, _ := redis.Strings(rd.Do("keys", "id:*"))
 
     for _, idkey := range idlogs {
         id := strings.Split(idkey, ":")[1]
         if banned, _ := isLockedUser(id); banned {
-            bannedIds = append(bannedIds,id)
+            userIds = append(userIds ,id)
         }
     }
-
-    for _, bannedId := range bannedIds {
-        user := getCurrentUser(bannedId)
-        userIds = append(userIds, user.Login)
-    }
-
-
     return userIds
 }
 
