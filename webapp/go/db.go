@@ -46,10 +46,10 @@ func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error 
         rd.Send("rename", "laslog:last:" + idStr, "laslog:lastnext:" + idStr )
         rd.Send("hmset", redis.Args{}.Add("laslog:last:" + idStr).AddFlat(m)...)
 
-        rd.Send("del", "id:" + user.Login)
+        rd.Send("del", "id:" + login)
         rd.Send("del", "ip:" + remoteAddr)
     } else {
-        rd.Send("incr", "id:" + user.Login)
+        rd.Send("incr", "id:" + login)
         rd.Send("incr", "ip:" + remoteAddr)
     }
 
@@ -85,6 +85,15 @@ func attemptLogin(req *http.Request) (*User, error) {
         createLoginLog(succeeded, remoteAddr, loginName, user)
     }()
 
+    if banned, _ := isBannedIP(remoteAddr); banned {
+        return nil, ErrBannedIP
+    }
+
+    if locked, _ := isLockedUser(loginName); locked {
+        return nil, ErrLockedUser
+    }
+
+
     row := db.QueryRow(
         "SELECT id, login, password_hash, salt FROM users WHERE login = ?",
         loginName,
@@ -96,14 +105,6 @@ func attemptLogin(req *http.Request) (*User, error) {
         user = nil
     case err != nil:
         return nil, err
-    }
-
-    if banned, _ := isBannedIP(remoteAddr); banned {
-        return nil, ErrBannedIP
-    }
-
-    if locked, _ := isLockedUser(user.Login); locked {
-        return nil, ErrLockedUser
     }
 
     if user == nil {
