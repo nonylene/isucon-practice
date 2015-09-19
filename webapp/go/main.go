@@ -15,16 +15,27 @@ import (
     "syscall"
     "os/signal"
     "io/ioutil"
-
     "strconv"
 )
 
 var db *sql.DB
-var rd redis.Conn
+var pool *redis.Pool
 var (
     UserLockThreshold int
     IPBanThreshold    int
 )
+
+func newPool() *redis.Pool {
+    return &redis.Pool{
+        MaxIdle: 10,
+        IdleTimeout: 12000,
+        Dial: func() (redis.Conn, error){
+            c, err := redis.Dial("tcp", ":6379")
+            return c, err
+        },
+    }
+
+}
 
 func init() {
     dsn := fmt.Sprintf(
@@ -43,10 +54,7 @@ func init() {
         panic(err)
     }
 
-    rd, err = redis.Dial("tcp", ":6379")
-    if err != nil {
-        panic(err)
-    }
+    pool = newPool()
 
     UserLockThreshold, err = strconv.Atoi(getEnv("ISU4_USER_LOCK_THRESHOLD", "3"))
     if err != nil {
