@@ -1,0 +1,124 @@
+{
+   "abstract" : "A small, simple, correct HTTP/1.1 client",
+   "author" : [
+      "Christian Hansen <chansen@cpan.org>",
+      "David Golden <dagolden@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132660, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "HTTP-Tiny",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "examples",
+         "corpus"
+      ],
+      "package" : [
+         "DB"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {}
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.17"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::CPAN::Meta" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "HTTP::CookieJar" : "0.001",
+            "IO::Socket::SSL" : "1.42",
+            "Mozilla::CA" : "20120823",
+            "Net::SSLeay" : "1.49"
+         },
+         "requires" : {
+            "Carp" : "0",
+            "IO::Socket" : "0",
+            "MIME::Base64" : "0",
+            "Time::Local" : "0",
+            "bytes" : "0",
+            "strict" : "0",
+            "warnings" : "0"
+         },
+         "suggests" : {
+            "IO::Socket::SSL" : "1.56"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Data::Dumper" : "0",
+            "Exporter" : "0",
+            "ExtUtils::MakeMaker" : "0",
+            "File::Basename" : "0",
+            "File::Spec" : "0",
+            "File::Spec::Functions" : "0",
+            "File::Temp" : "0",
+            "IO::Dir" : "0",
+            "IO::File" : "0",
+            "IO::Handle" : "0",
+            "IO::Socket::INET" : "0",
+            "IPC::Cmd" : "0",
+            "IPC::Open3" : "0",
+            "List::Util" : "0",
+            "Test::More" : "0.96",
+            "open" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "HTTP::Tiny" : {
+         "file" : "lib/HTTP/Tiny.pm",
+         "version" : "0.036"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/chansen/p5-http-tiny/issues"
+      },
+      "homepage" : "https://github.com/chansen/p5-http-tiny",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/chansen/p5-http-tiny.git",
+         "web" : "https://github.com/chansen/p5-http-tiny"
+      }
+   },
+   "version" : "0.036",
+   "x_authority" : "cpan:DAGOLDEN",
+   "x_contributors" : [
+      "Alan Gardner <gardner@pythian.com>",
+      "Alessandro Ghedini <al3xbio@gmail.com>",
+      "Brad Gilbert <bgills@cpan.org>",
+      "Chris Nehren <apeiron@cpan.org>",
+      "Chris Weyl <cweyl@alumni.drew.edu>",
+      "Claes Jakobsson <claes@surfar.nu>",
+      "Craig Berry <cberry@cpan.org>",
+      "David Mitchell <davem@iabyn.com>",
+      "Edward Zborowski <ed@rubensteintech.com>",
+      "Jess Robinson <castaway@desert-island.me.uk>",
+      "Lukas Eklund <leklund@gmail.com>",
+      "Martin-Louis Bright <mlbright@gmail.com>",
+      "Mike Doherty <doherty@cpan.org>",
+      "Serguei Trouchelle <stro@cpan.org>",
+      "Syohei YOSHIDA <syohex@gmail.com>",
+      "Tony Cook <tony@develop-help.com>"
+   ]
+}

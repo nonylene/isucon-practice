@@ -1,0 +1,1 @@
+{"dist":"DBIx-Sunny-0.21","name":"DBIx::Sunny","pathname":"K/KA/KAZEBURO/DBIx-Sunny-0.21.tar.gz","target":"DBIx::Sunny","version":"0.21","provides":{"DBIx::Sunny::Schema":{"file":"lib/DBIx/Sunny/Schema.pm","version":"0"},"DBIx::Sunny":{"file":"lib/DBIx/Sunny.pm","version":"0.21"}}}
