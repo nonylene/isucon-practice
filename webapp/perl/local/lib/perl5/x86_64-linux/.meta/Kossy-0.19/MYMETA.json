@@ -1,0 +1,72 @@
+{
+   "abstract" : "Sinatra-ish Simple and Clear web application framework",
+   "author" : [
+      "Masahiro Nagano <kazeburo {at} gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Kossy",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "share",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::Accessor::Lite" : "0",
+            "Cwd" : "0",
+            "Data::Section::Simple" : "0",
+            "File::Basename" : "0",
+            "File::ShareDir" : "0",
+            "HTML::FillInForm::Lite" : "1.11",
+            "HTTP::Message" : "0",
+            "Hash::MultiValue" : "0",
+            "JSON" : "0",
+            "Number::Format" : "0",
+            "Plack" : "0",
+            "Plack::Middleware::ReverseProxy" : "0",
+            "Plack::Middleware::Static" : "0",
+            "Router::Simple" : "0",
+            "Scalar::Util" : "0",
+            "Test::More" : "0.88",
+            "Text::Xslate" : "1.6001",
+            "Text::Xslate::Bridge::TT2Like" : "0",
+            "Try::Tiny" : "0.09",
+            "parent" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/kazeburo/Kossy.git"
+      }
+   },
+   "version" : "0.19"
+}

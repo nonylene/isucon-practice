@@ -1,0 +1,60 @@
+{
+   "abstract" : "Moose minus the antlers",
+   "author" : [
+      "Shawn M Moore <sartak at gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Mouse",
+   "no_index" : {
+      "directory" : [
+         "example",
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Devel::PPPort" : "3.19",
+            "ExtUtils::MakeMaker" : "6.59",
+            "ExtUtils::ParseXS" : "2.21",
+            "Test::More" : "0.88"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Devel::PPPort" : "3.19",
+            "ExtUtils::MakeMaker" : "6.59",
+            "ExtUtils::ParseXS" : "2.21"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Scalar::Util" : "1.14",
+            "XSLoader" : "0.02",
+            "perl" : "5.006002"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/gfx/p5-Mouse.git"
+      }
+   },
+   "version" : "1.12",
+   "x_module_name" : "Mouse"
+}
